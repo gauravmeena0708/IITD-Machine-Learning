@@ -1,3 +1,30 @@
+"""
+outputs
+Epoch [1/20], Train Loss: 0.5537, Test Loss: 0.3792, Test Accuracy: 86.45%
+Epoch [2/20], Train Loss: 0.3530, Test Loss: 0.3194, Test Accuracy: 88.35%
+Epoch [3/20], Train Loss: 0.3043, Test Loss: 0.2910, Test Accuracy: 89.28%
+Epoch [4/20], Train Loss: 0.2767, Test Loss: 0.2800, Test Accuracy: 89.64%
+Epoch [5/20], Train Loss: 0.2535, Test Loss: 0.2762, Test Accuracy: 89.95%
+Epoch [6/20], Train Loss: 0.2378, Test Loss: 0.2621, Test Accuracy: 90.34%
+Epoch [7/20], Train Loss: 0.2206, Test Loss: 0.2467, Test Accuracy: 91.06%
+Epoch [8/20], Train Loss: 0.2051, Test Loss: 0.2421, Test Accuracy: 90.95%
+Epoch [9/20], Train Loss: 0.1920, Test Loss: 0.2410, Test Accuracy: 91.34%
+Epoch [10/20], Train Loss: 0.1793, Test Loss: 0.2432, Test Accuracy: 91.53%
+Epoch [11/20], Train Loss: 0.1683, Test Loss: 0.2428, Test Accuracy: 91.61%
+Epoch [12/20], Train Loss: 0.1575, Test Loss: 0.2405, Test Accuracy: 91.56%
+Epoch [13/20], Train Loss: 0.1467, Test Loss: 0.2400, Test Accuracy: 91.73%
+Epoch [14/20], Train Loss: 0.1378, Test Loss: 0.2370, Test Accuracy: 92.02%
+Epoch [15/20], Train Loss: 0.1306, Test Loss: 0.2486, Test Accuracy: 91.72%
+Epoch [16/20], Train Loss: 0.1208, Test Loss: 0.2601, Test Accuracy: 91.70%
+Epoch [17/20], Train Loss: 0.1146, Test Loss: 0.2560, Test Accuracy: 92.18%
+Epoch [18/20], Train Loss: 0.1083, Test Loss: 0.2646, Test Accuracy: 92.23%
+Epoch [19/20], Train Loss: 0.1002, Test Loss: 0.2687, Test Accuracy: 92.09%
+Epoch [20/20], Train Loss: 0.0949, Test Loss: 0.2682, Test Accuracy: 91.87%
+Training complete.
+
+"""
+
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
