@@ -4,11 +4,13 @@
 ### Courses in CV and Image Processing
 1. [NPTEL IMAGE Processing IIT G](https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo)
 
+### Courses about Reinforcement Learning
+1. [Reinforcement Learning - Balaraman Ravindran](https://www.youtube.com/@reinforcementlearning1077)
+
 ### Courses about General AI
 1. [Berkley AI](https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL)
 
-### Courses about Reinforcement Learning
-1. [Reinforcement Learning - Balaraman Ravindran](https://www.youtube.com/@reinforcementlearning1077)
+
 
 
 
@@ -32,6 +34,7 @@
 4. [Topcoder](https://www.topcoder.com/)
 5. [HackerRank](https://www.hackerrank.com/)
 6. [CodeChef](https://www.codechef.com/)
+7. [CodingNinja Aquired by Naukari](https://www.naukri.com/code360/)
 
 ### Courses list for Basics of CS Degree
 1. [CS101 by stanford](https://www.edx.org/learn/computer-science/stanford-university-computer-science-101)
