@@ -50,6 +50,7 @@
 11. [UNSW CS1 Higher computing ](https://www.youtube.com/playlist?list=PL6B940F08B9773B9F)
 12. [UNSW CS2 DS and Algo](https://www.youtube.com/playlist?list=PLE621E25B3BF8B9D1)
 13. [UNSW CS3: Design in Computing](https://www.youtube.com/playlist?list=PLC3E93EF6B9645D9D)
+14. [Striver DS n Algo](https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz)
 
 ### Google search helpers
 1. [Open Directory finder](https://ewasion.github.io/opendirectory-finder/)
@@ -73,7 +74,11 @@
             <td>Courses about Reinforcement Learning</td>
             <td><a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a></td>
         </tr>
-        <tr>
+    </tbody>
+</table>
+
+<!--
+<tr>
             <td>2</td>
             <td><table>
     <tbody>
@@ -88,5 +93,4 @@
     </tbody>
 </table></td>
         </tr>
-    </tbody>
-</table>
+-->
