@@ -36,3 +36,17 @@
 ### Google search helpers
 1. [Open Directory finder](https://ewasion.github.io/opendirectory-finder/)
 2. [Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/)
+
+<table>
+  <tbody>
+    <tr>
+      <td>hello</td>
+      <td>
+        ```python
+        def or_here():
+          pass
+        ```
+      </td>
+    </tr>
+  <tbody>
+</table>
