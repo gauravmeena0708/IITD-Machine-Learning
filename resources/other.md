@@ -7,6 +7,10 @@
 ### Courses about General AI
 1. [Berkley AI](https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL)
 
+### Courses about Reinforcement Learning
+1. [Reinforcement Learning - Balaraman Ravindran](https://www.youtube.com/@reinforcementlearning1077)
+
+
 
 ### Other Tools
 1. [Bullshit remover](https://www.bullshitremover.com/)
@@ -17,6 +21,9 @@
 6. [Mathforlove](https://mathforlove.com)
 7. [desmos](https://www.desmos.com/)
 8. [Brilliant](https://brilliant.org/)
+9. [Fast.ai](https://course.fast.ai/)
+10. [3blue1brown](https://www.youtube.com/@3blue1brown), 
+
 
 ### Sites for competitive Coding
 1. [Interviewbit](interviewbit.com/)
