@@ -71,7 +71,7 @@
         </tr>
         <tr>
             <td>Courses about Reinforcement Learning</td>
-            <td><a href="[https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo](https://www.youtube.com/@reinforcementlearning1077)">Reinforcement Learning - Balaraman Ravindran</a></td>
+            <td><a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a></td>
         </tr>
         <tr>
             <td>2</td>
