@@ -75,7 +75,7 @@ Sample markdown table
             <td><table>
     <tbody>
         <tr>
-            <td>1</td>
+            <td><ul><li>list item 1</li><li>list item 2</li></ul></td>
             <td>2</td>
         </tr>
         <tr>
