@@ -45,16 +45,11 @@
 1. [Open Directory finder](https://ewasion.github.io/opendirectory-finder/)
 2. [Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/)
 
-<table>
-  <tbody>
-    <tr>
-      <td>hello</td>
-      <td>
-        ```python
-        def or_here():
-          pass
-        ```
-      </td>
-    </tr>
-  <tbody>
-</table>
+Sample markdown table
+
+| Item              | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
+| SQL Hat           |   True   | 23.99 |
+| Codecademy Tee    |  False   | 19.99 |
+| Codecademy Hoodie |  False   | 42.99 |
