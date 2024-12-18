@@ -55,15 +55,6 @@
 1. [Open Directory finder](https://ewasion.github.io/opendirectory-finder/)
 2. [Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/)
 
-Sample markdown table
-
-| Item              | In Stock | Price |
-| :---------------- | :------: | ----: |
-| Python Hat        |   True   | 23.99 |
-| SQL Hat           |   True   | 23.99 |
-| Codecademy Tee    |  False   | 19.99 |
-| Codecademy Hoodie |  False   | 42.99 |
-
 <table>
     <tbody>
         <tr>
@@ -71,12 +62,16 @@ Sample markdown table
             <td>Links</td>
         </tr>
         <tr>
-            <td>Courses in NLP and LLM</td>
+            <td>Courses about NLP and LLM</td>
             <td><a href="https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-">Large Language Models by Prof. Tanmay Chakraborty</a></td>
         </tr>
         <tr>
-            <td>Courses in CV and Image Processing</td>
+            <td>Courses about CV and Image Processing</td>
             <td><a href="https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo">NPTEL IMAGE Processing IITG</a></td>
+        </tr>
+        <tr>
+            <td>Courses about Reinforcement Learning</td>
+            <td><a href="[https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo](https://www.youtube.com/@reinforcementlearning1077)">Reinforcement Learning - Balaraman Ravindran</a></td>
         </tr>
         <tr>
             <td>2</td>
