@@ -1,14 +1,22 @@
-### Other sources
+### Courses in NLP and LLM
+1. [Large Language Models by Prof. Tanmay Chakraborty](https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-)
+
+### Courses in CV and Image Processing
 1. [NPTEL IMAGE Processing IIT G](https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo)
-2. [Berkley AI](https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL)
-3. [Bullshit remover](https://www.bullshitremover.com/)
-4. [Tensorflow Playground](https://playground.tensorflow.org)
-5. [Backprop Explainer](https://xnought.github.io/backprop-explainer/)
-6. [Havnnah Game Bot using MCTS](https://gauravmeena0708.github.io/havannah/index.html)
-7. [Mathigon](https://mathigon.org/)
-8. [Mathforlove](https://mathforlove.com)
-9. [desmos](https://www.desmos.com/)
-10. [Brilliant](https://brilliant.org/)
+
+### Courses about General AI
+1. [Berkley AI](https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL)
+
+
+### Other Tools
+1. [Bullshit remover](https://www.bullshitremover.com/)
+2. [Tensorflow Playground](https://playground.tensorflow.org)
+3. [Backprop Explainer](https://xnought.github.io/backprop-explainer/)
+4. [Havnnah Game Bot using MCTS](https://gauravmeena0708.github.io/havannah/index.html)
+5. [Mathigon](https://mathigon.org/)
+6. [Mathforlove](https://mathforlove.com)
+7. [desmos](https://www.desmos.com/)
+8. [Brilliant](https://brilliant.org/)
 
 ### Sites for competitive Coding
 1. [Interviewbit](interviewbit.com/)
@@ -18,7 +26,7 @@
 5. [HackerRank](https://www.hackerrank.com/)
 6. [CodeChef](https://www.codechef.com/)
 
-### Sites for Basics of CS Degree
+### Courses list for Basics of CS Degree
 1. [CS101 by stanford](https://www.edx.org/learn/computer-science/stanford-university-computer-science-101)
 2. [DS n Algo specialization](https://www.coursera.org/specializations/data-structures-algorithms)
 3. [Distributed Systems](https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB)
