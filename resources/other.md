@@ -2,7 +2,7 @@
 1. [Large Language Models by Prof. Tanmay Chakraborty](https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-)
 
 ### Courses in CV and Image Processing
-1. [NPTEL IMAGE Processing IIT G](https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo)
+1. [NPTEL IMAGE Processing IITG](https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo)
 
 ### Courses about Reinforcement Learning
 1. [Reinforcement Learning - Balaraman Ravindran](https://www.youtube.com/@reinforcementlearning1077)
@@ -67,11 +67,19 @@ Sample markdown table
 <table>
     <tbody>
         <tr>
-            <td>1</td>
-            <td>2</td>
+            <td>Topic</td>
+            <td>Links</td>
         </tr>
         <tr>
-            <td>1</td>
+            <td>Courses in NLP and LLM</td>
+            <td><a href="https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-">Large Language Models by Prof. Tanmay Chakraborty</a></td>
+        </tr>
+        <tr>
+            <td>Courses in CV and Image Processing</td>
+            <td><a href="https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo">NPTEL IMAGE Processing IITG</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
             <td><table>
     <tbody>
         <tr>
