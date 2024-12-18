@@ -1,5 +1,5 @@
-### Image Classification
+### IIT Delhi Semesters
 
-1. Transformation
+1. [Semester 1](./resources/sem1)
 2. Data Augumentation
 3.
