@@ -1,18 +1,28 @@
-### Courses in NLP and LLM
-1. [Large Language Models by Prof. Tanmay Chakraborty](https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-)
-
-### Courses in CV and Image Processing
-1. [NPTEL IMAGE Processing IITG](https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo)
-
-### Courses about Reinforcement Learning
-1. [Reinforcement Learning - Balaraman Ravindran](https://www.youtube.com/@reinforcementlearning1077)
-
-### Courses about General AI
-1. [Berkley AI](https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL)
-
-
-
-
+## Courses
+<table>
+    <tbody>
+        <tr>
+            <td>Topic</td>
+            <td>Links</td>
+        </tr>
+        <tr>
+            <td>Courses about NLP and LLM</td>
+            <td><a href="https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-">Large Language Models by Prof. Tanmay Chakraborty</a></td>
+        </tr>
+        <tr>
+            <td>Courses about CV and Image Processing</td>
+            <td><a href="https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo">NPTEL IMAGE Processing IITG</a></td>
+        </tr>
+        <tr>
+            <td>Courses about Reinforcement Learning</td>
+            <td><a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a></td>
+        </tr>
+        <tr>
+            <td>Courses about General AI</td>
+            <td><a href="https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL">Berkley AI</a></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Other Tools
 1. [Bullshit remover](https://www.bullshitremover.com/)
@@ -56,26 +66,6 @@
 1. [Open Directory finder](https://ewasion.github.io/opendirectory-finder/)
 2. [Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/)
 
-<table>
-    <tbody>
-        <tr>
-            <td>Topic</td>
-            <td>Links</td>
-        </tr>
-        <tr>
-            <td>Courses about NLP and LLM</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-">Large Language Models by Prof. Tanmay Chakraborty</a></td>
-        </tr>
-        <tr>
-            <td>Courses about CV and Image Processing</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo">NPTEL IMAGE Processing IITG</a></td>
-        </tr>
-        <tr>
-            <td>Courses about Reinforcement Learning</td>
-            <td><a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a></td>
-        </tr>
-    </tbody>
-</table>
 
 <!--
 <tr>
