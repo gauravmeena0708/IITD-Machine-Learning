@@ -9,7 +9,7 @@
             <td>Lectures<br/>Assignments</td>
         </tr>
         <tr>
-            <td>COL774<br/>Machine Learning</td>
+            <td>COL774<br/>Machine Learning<br/>Prof. Rahul Garg</td>
             <td>
               <a href="https://www.youtube.com/watch?v=het9HFqo1TQ">CS229 by Andrew Ng</a><br/>
               <a href="https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K">Machine Learning IITM</a><br/>
@@ -19,7 +19,7 @@
             <td><a href="https://drive.google.com/drive/folders/1WGocC7x2Ax8d9fLHeyOCNIH-k44HJQKB?usp=sharing">Lectures</a><br/><a href="#">-</a></td>
         </tr>
         <tr>
-            <td>COL671<br/>Artificial Intelligence</td>
+            <td>COL671<br/>Artificial Intelligence<br/>Prof. Rohan Paul</td>
             <td>
               <a href="https://www.youtube.com/playlist?list=PLp6ek2hDcoNB_YJCruBFjhF79f5ZHyBuz">Introduction to AI by Prof. Mausam</a><br/>
               <a href="https://www.youtube.com/playlist?list=PL5gYI166VpDY6n0BGxNBkB-t1O0z4RmrJ">CS188 AI</a><br/>
@@ -29,7 +29,7 @@
             <td><a href="https://drive.google.com/drive/folders/19jvNCQR4_2WWiuIHGHM-TuJFBOYwq0LN?usp=sharing">Lectures</a><br/><a href="#">-</a></td>
         </tr>
         <tr>
-            <td>ELL780<br/>Mathematics</td>
+            <td>ELL780<br/>Mathematics<br/>Prof. Sandeep Kumar</td>
             <td>
               <a href="https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8">Gilbert Strang - Linear Algebra - 18.06 - 2005</a><br/>
               <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k">Gilbert Strang - Linear Algebra for DS- 18.065 - 2018</a><br/>
@@ -40,7 +40,7 @@
             <td><a href="#">-</a><br/><a href="#">-</a></td>
         </tr>
         <tr>
-            <td>ELL880<br/>Social Network Analysis</td>
+            <td>ELL880<br/>Social Network Analysis<br/>Prof. Sougata Mukharjea</td>
             <td>
               <a href="https://www.youtube.com/@miningmassivedatasets6799">Mining Massive Datasets</a><br/>
               <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn">Machine Learning with Graphs</a>
