@@ -1,0 +1,8 @@
+torch
+torchvision
+argparse
+numpy
+pandas
+pickle
+PIL
+scipy
