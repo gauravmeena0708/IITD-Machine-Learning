@@ -1,5 +1,26 @@
 ## Semester I (at IIT Delhi)
 
+<table>
+    <tbody>
+        <tr>
+            <td>Course<br/>Title</td>
+            <td>Related Courses</td>
+            <td>Books</td>
+            <td>Lectures<br/>Assignments</td>
+        </tr>
+        <tr>
+            <td>COL774<br/>Machine Learning</td>
+            <td>
+              <a href="https://www.youtube.com/watch?v=het9HFqo1TQ">CS229 by Andrew Ng</a><br/>
+              <a href="https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K">Machine Learning IITM</a><br/>
+              <a href="https://www.youtube.com/playlist?list=PL4FSfq6xtSvyqEsz3UUnAizemXJfQyDVD">Purdue ML</a>
+            </td>
+            <td><a href="#">-</a></td>
+            <td><a href="#">-</a><br/><a href="#">-</a></td>
+        </tr>
+    </tbody>
+</table>
+
 ELL880 - [Notebook link](https://colab.research.google.com/drive/1jx1sSc9NH_QJGxJq2JxNNZMg2oKJLkVh?usp=sharing), [Image 1](https://gauravmeena0708.github.io/1.png), [Image 2](https://gauravmeena0708.github.io/2.png), [Latest Notebook](https://colab.research.google.com/drive/1eSW6EO_cQZMkDxqI2Dxrf8nvPprsljkn?usp=sharing)
 
 ### Youtube Series
