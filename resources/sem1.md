@@ -15,8 +15,18 @@
               <a href="https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K">Machine Learning IITM</a><br/>
               <a href="https://www.youtube.com/playlist?list=PL4FSfq6xtSvyqEsz3UUnAizemXJfQyDVD">Purdue ML</a>
             </td>
-            <td><a href="#">-</a></td>
+            <td>Pattern Recognition - Christopher Bishop <a href="#">-</a></td>
             <td><a href="#">-</a><br/><a href="#">-</a></td>
+        </tr>
+        <tr>
+            <td>COL671<br/>Artificial Intelligence</td>
+            <td>
+              <a href="https://www.youtube.com/playlist?list=PLp6ek2hDcoNB_YJCruBFjhF79f5ZHyBuz">Introduction to AI by Prof. Mausam</a><br/>
+              <a href="https://www.youtube.com/playlist?list=PL5gYI166VpDY6n0BGxNBkB-t1O0z4RmrJ">CS188 AI</a><br/>
+              <a href="https://www.youtube.com/playlist?list=PLsOUugYMBBJENfZ3XAToMsg44W7LeUVhF">CS188 AI2</a>
+            </td>
+            <td><a href="#">-</a></td>
+            <td><a href="https://drive.google.com/drive/folders/19jvNCQR4_2WWiuIHGHM-TuJFBOYwq0LN?usp=sharing">Lectures</a><br/><a href="#">-</a></td>
         </tr>
     </tbody>
 </table>
