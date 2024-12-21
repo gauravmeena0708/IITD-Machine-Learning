@@ -16,7 +16,7 @@
               <a href="https://www.youtube.com/playlist?list=PL4FSfq6xtSvyqEsz3UUnAizemXJfQyDVD">Purdue ML</a>
             </td>
             <td>Pattern Recognition - Christopher Bishop <a href="#">-</a></td>
-            <td><a href="#">-</a><br/><a href="#">-</a></td>
+            <td><a href="https://drive.google.com/drive/folders/1WGocC7x2Ax8d9fLHeyOCNIH-k44HJQKB?usp=sharing">Lectures</a><br/><a href="#">-</a></td>
         </tr>
         <tr>
             <td>COL671<br/>Artificial Intelligence</td>
@@ -46,7 +46,7 @@
               <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn">Machine Learning with Graphs</a>
             </td>
             <td>Networks, Crowds, and Markets Jon Kleinberg (For ML with Graphs) <a href="#">-</a></td>
-            <td><a href="https://colab.research.google.com/drive/1jx1sSc9NH_QJGxJq2JxNNZMg2oKJLkVh?usp=sharing">Notebook 1</a><br/><a href="https://colab.research.google.com/drive/1eSW6EO_cQZMkDxqI2Dxrf8nvPprsljkn?usp=sharing">Notebook 2</a></td>
+            <td><a href="https://drive.google.com/drive/folders/1l4bj8_IxmOGqLCxChV4-6jiO1bLZHEQ8?usp=sharing">Lectures</a><br/><a href="https://colab.research.google.com/drive/1jx1sSc9NH_QJGxJq2JxNNZMg2oKJLkVh?usp=sharing">Notebook 1</a><br/><a href="https://colab.research.google.com/drive/1eSW6EO_cQZMkDxqI2Dxrf8nvPprsljkn?usp=sharing">Notebook 2</a></td>
         </tr>
     </tbody>
 </table>
