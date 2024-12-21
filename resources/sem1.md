@@ -18,9 +18,7 @@ Social Network Analysis (ELL880) - [Mining massive Datasets](https://www.youtube
 | ELL780 |  Introduction to linear Algebra - Gilbert Strang, Linear Algebra and Learning from Data - Gilbert Strang, Linear Algebra Done Right - Sheldon Axler, Convex Optimization by Boyd | [Lec]() | Assignments |
 | ELL880 |  Networks, Crowds, and Markets Jon Kleinberg (For ML with Graphs)  |  [Lec]() |  Assignments |
 | COL774 |  Pattern Recognition - Christopher Bishop  |  [Lec]() | Assignments |
-| COL671 |  - | [Lectures](https://drive.google.com/drive/folders/19jvNCQR4_2WWiuIHGHM-TuJFBOYwq0LN?usp=sharing) |
-1. Assignment 1
-2. Assignment 2 |
+| COL671 |  - | [Lectures](https://drive.google.com/drive/folders/19jvNCQR4_2WWiuIHGHM-TuJFBOYwq0LN?usp=sharing) | Assignments |
 
 
 
