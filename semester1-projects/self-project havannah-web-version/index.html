@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havannah Game</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        canvas {
+            border: 2px solid black;
+            margin-top: 20px;
+        }
+
+        #currentTurn {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        #winner {
+            font-size: 24px;
+            color: green;
+        }
+
+        /* Adjust canvas to be centered and responsive */
+        #gameCanvas {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .canvas-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        #gameTable {
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        #gameTable td {
+            padding: 5px;
+            border: 1px solid #ccc;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6244557364993858"
+    crossorigin="anonymous"></script>
+</head>
+<body class="bg-light">
+
+    <div class="container mt-1">
+        <div class="row">
+            <!-- First part (3 parts width) -->
+            <div class="col-lg-4">
+                <div class="card shadow p-4">
+                    <div class="card-body text-center">
+                        <img src="logo.png" height=100 alt="logo"> 
+                        <h2 class="mb-4">Havannah Game</h2>
+                        <p class="mb-4 text-start">Player 1 is by default Human(mostly you). You can choose between Human, AI(medium level), or AI2(bit hard) for Player 2.
+                            <br/><br/>
+                            <strong>How to play:</strong><br/>
+                            Each player has to try to form bridge (connecting two corners), fork (connecting 3 edges) or ring as given in image above while blocking opponent.
+                        </p>
+
+                        <div class="mb-3">
+                            <label for="sizeSelect" class="form-label" hidden>Select Board Size:</label>
+                            <select id="sizeSelect" class="form-select" hidden>
+                                <option value="4">4</option>
+                                <option value="6">6</option>
+                                <option value="8">8</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="player2Type" class="form-label">Select Player 2 Type:</label>
+                            <select id="player2Type" class="form-select">
+                                <option value="human">Human</option>
+                                <option value="ai">AI</option>
+                                <option value="ai2" selected>AI2</option>
+                            </select>
+                        </div>
+
+                        <button id="startGameBtn" class="btn btn-primary">Start Game</button>
+
+                        <div id="gameStatus" class="mt-4">
+                            <div id="currentTurn" class="mb-2">Current Turn: Player 1</div>
+                            <div>Player 1 (Yellow) Time Remaining: <span id="player1Time">5:00</span></div>
+                            <div>Player 2 (Red) Time Remaining: <span id="player2Time">5:00</span></div>
+                            <div id="winner" class="mt-2"></div>
+                        </div>
+
+                        <!-- Table to display the board -->
+                        <table id="gameTable" class="table table-bordered"></table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second part (6 parts width) -->
+            <div class="col-lg-8">
+                <div class="canvas-container">
+                    <canvas id="gameCanvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S5CYX1SZD6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-S5CYX1SZD6');
+  gtag('config', 'G-S5CYX1SZD6', {
+    'cookie_domain': 'auto' // Automatically detect the correct domain, or set your domain explicitly
+  });
+</script>
+
+    
+    <!-- Your existing game scripts -->
+    <script src="ai.js"></script> <!-- Include ai.js for AI functionality -->
+    <script src="ai2.js"></script>
+    <script src="script.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6244557364993858"
+    crossorigin="anonymous"></script>
+</body>
+</html>
