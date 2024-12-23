@@ -53,7 +53,9 @@
 
 
 
+## Workshop on Operation Research by Dept. of Management Studies
 
+[https://gauravmeena0708.github.io/IITD-Machine-Learning/semester1-projects/Operation%20research%20workshop%20by%20DMS%20IITD/](https://gauravmeena0708.github.io/IITD-Machine-Learning/semester1-projects/Operation%20research%20workshop%20by%20DMS%20IITD/)
 
 
 
