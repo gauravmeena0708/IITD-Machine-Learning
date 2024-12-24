@@ -1,6 +1,7 @@
 # Semester 2
 
 ## Deep Learning
+Teaching computers how to learn a task directly from raw data
 1. Introduction to Deep Learning - [Youtube](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)
 
 2. Machine Learning Courses  
