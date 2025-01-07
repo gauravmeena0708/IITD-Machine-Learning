@@ -1,5 +1,40 @@
 # Semester 2
 
+<table>
+    <tbody>
+        <tr>
+            <td>Course<br/>Title</td>
+            <td>Related Courses</td>
+            <td>Books</td>
+            <td>Lectures<br/>Assignments</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
 ## Deep Learning
 Teaching computers how to learn a task directly from raw data
 1. Introduction to Deep Learning - [Youtube](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)
