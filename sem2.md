@@ -13,14 +13,14 @@
             <td>ELL884 <br/> NLP</td>
             <td></td>
             <td></td>
-            <td></td>
+            <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
             <td><a href="https://lcs2.in/nlp2402">Website</a></td>
         </tr>
         <tr>
             <td>AIL721<br/>Deep Learning</td>
             <td></td>
             <td></td>
-            <td></td>
+            <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
             <td><a href="https://jamesarambam.me/dl">Website</a></td>
         </tr>
         <tr>
