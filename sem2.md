@@ -7,7 +7,7 @@
             <td>Related Courses</td>
             <td>Books</td>
             <td>Lectures<br/>Assignments</td>
-            Website</td>
+            <td>Website</td>
         </tr>
         <tr>
             <td>ELL884 <br/> NLP</td>
