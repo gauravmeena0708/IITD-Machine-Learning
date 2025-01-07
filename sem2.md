@@ -6,19 +6,19 @@
             <td>Course<br/>Title</td>
             <td>Related Courses</td>
             <td>Books</td>
-            <td>Lectures<br/>Assignments</td>
+            <td>Lectures<br/>Assignments<br/>Website</td>
         </tr>
         <tr>
+            <td>ELL884 <br/> NLP</td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
+            <td><a href="https://lcs2.in/nlp2402">Website</a></td>
         </tr>
         <tr>
+            <td>AIL721<br/>Deep Learning</td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
+            <td><a href="https://jamesarambam.me/dl">Website</a></td>
         </tr>
         <tr>
             <td></td>
