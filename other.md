@@ -66,6 +66,9 @@
 1. [Open Directory finder](https://ewasion.github.io/opendirectory-finder/)
 2. [Search Operators](https://ahrefs.com/blog/google-advanced-search-operators/)
 
+### Books
+1. [Speech and language Processing](https://web.stanford.edu/~jurafsky/slp3/)
+
 
 <!--
 <tr>
