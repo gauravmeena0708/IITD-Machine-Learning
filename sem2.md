@@ -24,8 +24,8 @@
             <td><a href="https://jamesarambam.me/dl">Website</a></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>COL 761<br/>Data Mining</td>
+            <td><a href="https://www.youtube.com/playlist?list=PLElvkFQko9bcZxj57xvs9cgSPvCDN5tNe">Data Mining text Mining</a></td>
             <td></td>
             <td></td>
             <td></td>
