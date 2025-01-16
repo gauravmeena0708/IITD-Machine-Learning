@@ -19,13 +19,14 @@
         <tr>
             <td>AIL721<br/>Deep Learning</td>
             <td></td>
-            <td></td>
+            <td><a href="https://www.cse.iitm.ac.in/~miteshk/CS7015_2018.html">Deep learning NPTEL</a></td>
             <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
             <td><a href="https://jamesarambam.me/dl">Website</a></td>
         </tr>
         <tr>
             <td>COL 761<br/>Data Mining</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLElvkFQko9bcZxj57xvs9cgSPvCDN5tNe">Data Mining text Mining</a></td>
+            <td><a href="https://www.youtube.com/playlist?list=PLElvkFQko9bcZxj57xvs9cgSPvCDN5tNe">Data Mining text Mining</a>
+            </td>
             <td></td>
             <td></td>
             <td></td>
