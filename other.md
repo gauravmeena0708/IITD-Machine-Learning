@@ -15,7 +15,10 @@
         </tr>
         <tr>
             <td>Courses about Reinforcement Learning</td>
-            <td><a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a></td>
+            <td>
+                <a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX">Reinforcement Learning-Stanford</a><br/>
+            </td>
         </tr>
         <tr>
             <td>Courses about General AI</td>
