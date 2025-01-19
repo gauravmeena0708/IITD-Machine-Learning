@@ -25,7 +25,10 @@
         </tr>
         <tr>
             <td>COL 761<br/>Data Mining</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLElvkFQko9bcZxj57xvs9cgSPvCDN5tNe">Data Mining text Mining</a>
+            <td>
+                <a href="https://www.youtube.com/playlist?list=PLElvkFQko9bcZxj57xvs9cgSPvCDN5tNe">Data Mining text Mining - TU Dortmun</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLoCMsyE1cvdVnCgHk43vRy7PVTVWJ6WVR">Mining Massive Datasets - Stanford</a><br/>
+                <a href="https://www.coursera.org/learn/data-patterns/">Pattern Discovery in Data Mining</a>
             </td>
             <td></td>
             <td></td>
