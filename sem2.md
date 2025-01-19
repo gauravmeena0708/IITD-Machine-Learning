@@ -11,7 +11,11 @@
         </tr>
         <tr>
             <td>ELL884 <br/> NLP</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLbuogVdPnkCrPZ4Vc-GRnk730SLhC1L43">NLP Univ of Utah</a></td>
+            <td>
+                <a href="https://www.youtube.com/playlist?list=PLaZQkZp6WhWyvdiP49JG-rjyTPck_hvEu">CS124 - From Lang to info - jurafsky</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4">CS224 - NLP with Deep Learning - stanford</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLbuogVdPnkCrPZ4Vc-GRnk730SLhC1L43">NLP Univ of Utah</a><br/>  
+            </td>
             <td></td>
             <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
             <td><a href="https://lcs2.in/nlp2402">Website</a></td>
