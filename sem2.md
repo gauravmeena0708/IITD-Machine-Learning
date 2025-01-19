@@ -11,7 +11,7 @@
         </tr>
         <tr>
             <td>ELL884 <br/> NLP</td>
-            <td></td>
+            <td><a href="https://www.youtube.com/playlist?list=PLbuogVdPnkCrPZ4Vc-GRnk730SLhC1L43">NLP Univ of Utah</a></td>
             <td></td>
             <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
             <td><a href="https://lcs2.in/nlp2402">Website</a></td>
