@@ -34,6 +34,10 @@
             </td>
             <td><a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9">Statquest Statistics</a></td>
         </tr>
+        <tr>
+            <td>Machine Learning & Advanced ML</td>
+            <td><a href="https://www.youtube.com/playlist?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR">Advanced ML</a></td>
+        </tr>
     </tbody>
 </table>
 
