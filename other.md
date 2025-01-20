@@ -24,6 +24,10 @@
             <td>Courses about General AI</td>
             <td><a href="https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL">Berkley AI</a></td>
         </tr>
+        <tr>
+            <td>Information theory</td>
+            <td><a href="https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6">Information Theory, Pattern Recognition</a></td>
+        </tr>
     </tbody>
 </table>
 
