@@ -28,6 +28,12 @@
             <td>Information theory</td>
             <td><a href="https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6">Information Theory, Pattern Recognition</a></td>
         </tr>
+        <tr>
+            <td>
+                Statistics
+            </td>
+            <td><a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9">Statquest Statistics</a></td>
+        </tr>
     </tbody>
 </table>
 
