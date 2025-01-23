@@ -22,7 +22,11 @@
         </tr>
         <tr>
             <td>AIL721<br/>Deep Learning</td>
-            <td><a href="https://www.cse.iitm.ac.in/~miteshk/CS7015_2018.html">Deep learning NPTEL</a></td>
+            <td>
+                <a href="https://www.youtube.com/playlist?list=PLHgjs9ncvHi80UCSlSvQe-TK_uOyDv_Jf">Sohail Faizi</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU">Nitesh Khapra</a><br/>
+                <a href="https://www.cse.iitm.ac.in/~miteshk/CS7015_2018.html">Deep learning NPTEL</a>
+            </td>
             <td></td>
             <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
             <td><a href="https://jamesarambam.me/dl">Website</a></td>
