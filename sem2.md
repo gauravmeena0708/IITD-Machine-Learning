@@ -12,6 +12,7 @@
         <tr>
             <td>ELL884 <br/> NLP</td>
             <td>
+                <a href="https://www.youtube.com/playlist?list=PLJJzI13YAXCHxbVgiFaSI88hj-mRSoMtI">NLP IIT KGP NPTEL</a><br/>
                 <a href="https://www.youtube.com/playlist?list=PLaZQkZp6WhWyvdiP49JG-rjyTPck_hvEu">CS124 - From Lang to info - jurafsky</a><br/>
                 <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4">CS224 - NLP with Deep Learning - stanford</a><br/>
                 <a href="https://www.youtube.com/playlist?list=PLbuogVdPnkCrPZ4Vc-GRnk730SLhC1L43">NLP Univ of Utah</a><br/>  
@@ -24,7 +25,7 @@
             <td>AIL721<br/>Deep Learning</td>
             <td>
                 <a href="https://www.youtube.com/playlist?list=PLHgjs9ncvHi80UCSlSvQe-TK_uOyDv_Jf">Sohail Faizi</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU">Nitesh Khapra</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU">Mitesh Khapra</a><br/>
                 <a href="https://www.cse.iitm.ac.in/~miteshk/CS7015_2018.html">Deep learning NPTEL</a>
             </td>
             <td></td>
