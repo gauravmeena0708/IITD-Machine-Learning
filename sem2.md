@@ -70,6 +70,14 @@ Teaching computers how to learn a task directly from raw data
 
 1. [Course Website](https://jamesarambam.me/dl)
 
+## ELL884 Deep Learing in NLP important sources
+
+1. [Karpathy - LLM like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI)
+2. [Karpathy - LLM](https://www.youtube.com/watch?v=zjkBMFhNj_g)
+3. [https://tiktokenizer.vercel.app/](https://tiktokenizer.vercel.app/)
+4. [https://bbycroft.net/llm](https://bbycroft.net/llm)
+
+
 ### Related courses
 
 1. [Mining massaive datasets - stanford](https://www.youtube.com/playlist?list=PLLssT5z_DsK9JDLcT8T62VtzwyW9LNepV)
