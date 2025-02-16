@@ -94,6 +94,8 @@
 4. https://www.linkedin.com/pulse/lane-detection-tracking-using-classic-computer-vision-shrivastava/
 5. https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0
 6. https://onlinelibrary.wiley.com/doi/10.1155/2018/8320207
+7. https://onlinelibrary.wiley.com/doi/10.1155/2021/6664970
+8. https://www.extrica.com/article/22023/pdf
 
 
 
