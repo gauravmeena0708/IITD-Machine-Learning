@@ -87,6 +87,16 @@
 ### Books
 1. [Speech and language Processing](https://web.stanford.edu/~jurafsky/slp3/)
 
+## Classic CV 
+https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0
+
+https://www.mdpi.com/1424-8220/21/2/400
+https://medium.com/@medsadek.snoussi/image-processing-585f2e1ecb59
+
+https://www.linkedin.com/pulse/lane-detection-tracking-using-classic-computer-vision-shrivastava/
+https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0
+
+
 
 <!--
 <tr>
