@@ -98,7 +98,9 @@
 8. https://www.extrica.com/article/22023/pdf
 9. https://www.mdpi.com/2079-9292/10/6/655
 
-
+Learn how to type
+1. https://www.keybr.com/
+2. https://monkeytype.com/
 
 <!--
 <tr>
