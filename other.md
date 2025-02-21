@@ -11,7 +11,8 @@
         </tr>
         <tr>
             <td>Courses about CV and Image Processing</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo">NPTEL IMAGE Processing IITG</a></td>
+            <td><a href="https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo">NPTEL IMAGE Processing IITG</a><br/>
+            <a href="https://www.youtube.com/playlist?list=PLEAYkSg4uSQ0Q5Z1IYI-0g2cbD-2Rt-I6">Deep Learning for computer vision-Prof. Vineeth N Balasubramanian   |   IIT Hyderabad</a></td>
         </tr>
         <tr>
             <td>Courses about Reinforcement Learning</td>
