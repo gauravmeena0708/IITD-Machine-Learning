@@ -80,6 +80,7 @@
 12. [UNSW CS2 DS and Algo](https://www.youtube.com/playlist?list=PLE621E25B3BF8B9D1)
 13. [UNSW CS3: Design in Computing](https://www.youtube.com/playlist?list=PLC3E93EF6B9645D9D)
 14. [Striver DS n Algo](https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz)
+15. [Abdul bari Algo](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 
 ### Google search helpers
 1. [Open Directory finder](https://ewasion.github.io/opendirectory-finder/)
