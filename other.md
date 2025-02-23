@@ -106,7 +106,8 @@
 ## Mitesh Khapra
 1. [Introduction to large language models](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM)
 2. [Deep Learning](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU)
-3. 
+3. [NLP with DL](https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU)
+4. [RNN With DL](https://www.youtube.com/playlist?list=PLGP2q2bIgaNy9_tR-a0fElXJ1Ou-iB2IU)
 
 <!--
 <tr>
