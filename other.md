@@ -19,6 +19,7 @@
             <td>
                 <a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a><br/>
                 <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX">Reinforcement Learning-Stanford</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ">RL by David Silver</a>
             </td>
         </tr>
         <tr>
@@ -113,6 +114,9 @@
 ## Computer architechture
 1. [Computer Architecture by David Black-Schaffer](https://www.youtube.com/playlist?list=PL9b_pbvWZfKjzceHxm8aceOvNR_6icJI-)
 2. [Onur Mutlu](https://www.youtube.com/playlist?list=PL5Q2soXY2Zi-EImKxYYY1SZuGiOAOBKaf)
+
+## Calculus
+1. [Prof Leonard](https://www.youtube.com/playlist?list=PLF797E961509B4EB5)
 
 <!--
 <tr>
