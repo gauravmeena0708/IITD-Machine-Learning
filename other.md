@@ -23,6 +23,14 @@
                 <a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH">Deep RL UC Berkley</a>
             </td>
         </tr>
+         <tr>
+            <td>Courses about Graphs</td>
+            <td>
+                <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp">Machine Learning with Graphs</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLn2-dEmQeTfQ8YVuHBOvAhUlnIPYxkeu3">Geometric Deep Learning 1</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLn2-dEmQeTfSLXW8yXP4q_Ii58wFdxb3C">Geometric Deep Learning 2</a><br/>
+            </td>
+        </tr>
         <tr>
             <td>Courses about General AI</td>
             <td><a href="https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL">Berkley AI</a></td>
@@ -44,6 +52,7 @@
     </tbody>
 </table>
 <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR">Topics in Math with application in Finance</a>  
+https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx
 
 ### Other Tools
 1. [Bullshit remover](https://www.bullshitremover.com/)
