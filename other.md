@@ -117,6 +117,7 @@
 
 ## Calculus
 1. [Prof Leonard](https://www.youtube.com/playlist?list=PLF797E961509B4EB5)
+2. [Discrete Maths](https://www.youtube.com/playlist?list=PLl-gb0E4MII28GykmtuBXNUNoej-vY5Rz)
 
 <!--
 <tr>
