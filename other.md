@@ -99,9 +99,14 @@
 8. https://www.extrica.com/article/22023/pdf
 9. https://www.mdpi.com/2079-9292/10/6/655
 
-Learn how to type
+## Learn how to type
 1. https://www.keybr.com/
 2. https://monkeytype.com/
+
+## Mitesh Khapra
+1. [Introduction to large language models](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM)
+2. [Deep Learning](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU)
+3. 
 
 <!--
 <tr>
