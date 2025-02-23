@@ -110,6 +110,10 @@
 3. [NLP with DL](https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU)
 4. [RNN With DL](https://www.youtube.com/playlist?list=PLGP2q2bIgaNy9_tR-a0fElXJ1Ou-iB2IU)
 
+## Computer architechture
+1. [Computer Architecture by David Black-Schaffer](https://www.youtube.com/playlist?list=PL9b_pbvWZfKjzceHxm8aceOvNR_6icJI-)
+2. [Onur Mutlu](https://www.youtube.com/playlist?list=PL5Q2soXY2Zi-EImKxYYY1SZuGiOAOBKaf)
+
 <!--
 <tr>
             <td>2</td>
