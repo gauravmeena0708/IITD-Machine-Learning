@@ -19,7 +19,8 @@
             <td>
                 <a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a><br/>
                 <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX">Reinforcement Learning-Stanford</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ">RL by David Silver</a>
+                <a href="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ">RL by David Silver</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH">Deep RL UC Berkley</a>
             </td>
         </tr>
         <tr>
