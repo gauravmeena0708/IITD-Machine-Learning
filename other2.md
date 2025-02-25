@@ -195,4 +195,3 @@ This section covers foundational CS topics relevant to AI/ML work.
 *   **Two Minute Papers:** [Two Minute Papers (YouTube)](https://www.youtube.com/c/K%C3%A1rolyZsolnai) - Summarizes research papers concisely.
 * **Towards Data Science:**- [Towards Data Science on medium](https://towardsdatascience.com/)
 
-This expanded and reorganized list provides a much more comprehensive and navigable resource for learning about AI and related fields.  It combines the original list's strengths with a more logical structure, additional resources, and clearer categorization.  Importantly, it's also more easily *maintained* and *extended* in the future.
