@@ -39,7 +39,7 @@ This section organizes courses by major subject areas.
     *   [Stanford CS231N: Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) (YouTube) - *Intermediate to Advanced*. A foundational CV course.
 
 *   **Advanced CV:**
-    *   [Deep Learning for Computer Vision - Prof. Vineeth N Balasubramanian | IIT Hyderabad](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ0Q5Z1IYI-0g2cbD-2Rt-I6) (YouTube) - *Intermediate*.
+    *   [Deep Learning for Computer Vision - Prof. Vineeth N Balasubramanian-IIT Hyderabad](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ0Q5Z1IYI-0g2cbD-2Rt-I6) (YouTube) - *Intermediate*.
     *   **Classic CV:**
         *   [https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0](https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0)
         *   [https://www.mdpi.com/1424-8220/21/2/400](https://www.mdpi.com/1424-8220/21/2/400)
