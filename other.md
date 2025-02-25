@@ -1,4 +1,5 @@
 ## Courses
+
 <table>
     <tbody>
         <tr>
@@ -63,6 +64,7 @@
         </tr>
     </tbody>
 </table>
+                    
 <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR">Topics in Math with application in Finance</a>
 
 ### Other Tools
