@@ -9,34 +9,34 @@ This section organizes courses by major subject areas.
 #### 1.1. Deep Learning
 
 *   **Comprehensive Deep Learning:**
-    *   **Highly Recommended:** [fast.ai](https://course.fast.ai/) - *Basic to Advanced*. Practical, code-first approach to deep learning.  Known for its excellent pedagogy.
-    *   **Highly Recommended:** [DeepLearning.AI Specialization (Coursera)](https://www.coursera.org/specializations/deep-learning) - *Basic to Intermediate*. Andrew Ng's popular specialization (some parts require subscription).  A strong foundational course.
-    *   [Mitesh Khapra's Deep Learning](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU) (YouTube) - *Intermediate*. Excellent, in-depth series.
-    *   [Yann LeCun's Deep Learning (NYU CDS)](https://www.youtube.com/playlist?list=PLgF7i4LH-YxacgG0OPmTYe1UUQAvcw9Ke) (YouTube) - *Advanced*. From a leading figure in DL. Assumes good math foundation.
-    *   [Stanford CS230: Deep Learning](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) (YouTube) - *Intermediate to Advanced*. A classic Stanford course.
+    *   **Highly Recommended:** [fast.ai](https://course.fast.ai/) - *Basic to Advanced*. Practical, code-first approach to deep learning.  Known for its excellent pedagogy.  **Core Concept:** *Demystifies DL by focusing on practical application and building models quickly. Helps grok the end-to-end DL pipeline.*
+    *   **Highly Recommended:** [DeepLearning.AI Specialization (Coursera)](https://www.coursera.org/specializations/deep-learning) - *Basic to Intermediate*. Andrew Ng's popular specialization (some parts require subscription). A strong foundational course. **Core Concept:** *Provides a solid understanding of basic neural networks, training procedures, and key architectures (CNNs, RNNs).*
+    *   [Mitesh Khapra's Deep Learning](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU) (YouTube) - *Intermediate*. Excellent, in-depth series.  **Core Concept:** *In-depth coverage of fundamental DL concepts, including backpropagation, regularization, and optimization techniques.*
+    *   [Yann LeCun's Deep Learning (NYU CDS)](https://www.youtube.com/playlist?list=PLgF7i4LH-YxacgG0OPmTYe1UUQAvcw9Ke) (YouTube) - *Advanced*. From a leading figure in DL. Assumes good math foundation. **Core Concept:** *Theoretical foundations of deep learning, including different types of neural network architectures and their mathematical underpinnings.*
+    *   [Stanford CS230: Deep Learning](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) (YouTube) - *Intermediate to Advanced*. A classic Stanford course. **Core Concept:** *Combines theoretical foundations with practical applications, covering various DL topics, from CNNs to RNNs to transformers.*
 
 *   **Specialized Deep Learning:**
-    *   [Mitesh Khapra's RNN with DL](https://www.youtube.com/playlist?list=PLGP2q2bIgaNy9_tR-a0fElXJ1Ou-iB2IU) (YouTube) - *Intermediate to Advanced*. Focuses on Recurrent Neural Networks.
-    *   [Full Stack Deep Learning](https://fullstackdeeplearning.com/) - *Intermediate to Advanced*. Covers not just models, but also deployment and infrastructure.
+    *   [Mitesh Khapra's RNN with DL](https://www.youtube.com/playlist?list=PLGP2q2bIgaNy9_tR-a0fElXJ1Ou-iB2IU) (YouTube) - *Intermediate to Advanced*. Focuses on Recurrent Neural Networks. **Core Concept:** *Understanding sequence modeling and the architecture of RNNs, LSTMs, and GRUs.*
+    *   [Full Stack Deep Learning](https://fullstackdeeplearning.com/) - *Intermediate to Advanced*. Covers not just models, but also deployment and infrastructure. **Core Concept:** *Emphasizes the entire ML lifecycle, including data management, model deployment, and monitoring.*
 
 #### 1.2. Natural Language Processing (NLP) & Large Language Models (LLMs)
 
 *   **NLP Fundamentals:**
-    *   [Mitesh Khapra's NLP with DL](https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU) (YouTube) - *Intermediate*.
-    *   [Stanford CS224N: NLP with Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ) (YouTube) - *Advanced*. Another excellent Stanford course.  Strong mathematical background recommended.
-    *   [Dan Jurafsky & Chris Manning's NLP Course (Stanford)](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) (Slides & Materials, older but foundational) - *Basic to Intermediate*.
+    *   [Mitesh Khapra's NLP with DL](https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU) (YouTube) - *Intermediate*. **Core Concept:** *Applies DL techniques to classic NLP tasks like sentiment analysis, machine translation, and text classification.*
+    *   [Stanford CS224N: NLP with Deep Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ) (YouTube) - *Advanced*. Another excellent Stanford course. Strong mathematical background recommended. **Core Concept:** *In-depth coverage of modern NLP techniques, with a strong emphasis on neural networks and their applications.*
+    *   [Dan Jurafsky & Chris Manning's NLP Course (Stanford)](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html) (Slides & Materials, older but foundational) - *Basic to Intermediate*. **Core Concept:** *Provides a strong foundation in classical NLP techniques, including tokenization, parsing, and semantic analysis.*
     * [Speech and language Processing book](https://web.stanford.edu/~jurafsky/slp3/)
 
 *   **Large Language Models (LLMs):**
     *   [Large Language Models by Prof. Tanmay Chakraborty](https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-) (YouTube) - *Intermediate*.
     *   [Mitesh Khapra's Large Language Models](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM) (YouTube) - *Intermediate*.
-    *   [Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1/1) - *Basic to Intermediate*. Excellent practical introduction to Transformer models.  Code-focused.
+    *   [Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1/1) - *Basic to Intermediate*. Excellent practical introduction to Transformer models. Code-focused. **Core Concept:** *Practical understanding of transformers, tokenizers, and how to use the Hugging Face library for NLP tasks.*
 
 #### 1.3. Computer Vision (CV) & Image Processing
 
 *   **Fundamentals:**
-    *   [NPTEL Image Processing IITG](https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo) (YouTube) - *Basic to Intermediate*.
-    *   [Stanford CS231N: Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) (YouTube) - *Intermediate to Advanced*. A foundational CV course.
+    *   [NPTEL Image Processing IITG](https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo) (YouTube) - *Basic to Intermediate*. **Core Concept:** *Fundamental image processing techniques, including filtering, edge detection, and image segmentation.*
+    *   [Stanford CS231N: Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) (YouTube) - *Intermediate to Advanced*. A foundational CV course.  **Core Concept:** *Deep understanding of CNNs and their architecture, training, and application to various CV tasks.*
 
 *   **Advanced CV:**
     *   [Deep Learning for Computer Vision - Prof. Vineeth N Balasubramanian-IIT Hyderabad](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ0Q5Z1IYI-0g2cbD-2Rt-I6) (YouTube) - *Intermediate*.
@@ -54,8 +54,8 @@ This section organizes courses by major subject areas.
 #### 1.4. Reinforcement Learning (RL)
 
 *   **Introductory RL:**
-    *   [Reinforcement Learning - Balaraman Ravindran](https://www.youtube.com/@reinforcementlearning1077) (YouTube) - *Basic to Intermediate*. Excellent for beginners.
-    *   [RL by David Silver (DeepMind)](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) (YouTube) - *Intermediate to Advanced*. Classic lectures.
+    *   [Reinforcement Learning - Balaraman Ravindran](https://www.youtube.com/@reinforcementlearning1077) (YouTube) - *Basic to Intermediate*. Excellent for beginners. **Core Concept:** *Introduces key RL concepts like Markov Decision Processes (MDPs), dynamic programming, and Monte Carlo methods in a clear and accessible way.*
+    *   [RL by David Silver (DeepMind)](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) (YouTube) - *Intermediate to Advanced*. Classic lectures. **Core Concept:** *Comprehensive coverage of advanced RL topics, including policy gradients, actor-critic methods, and deep RL.*
     *   [Reinforcement Learning - Stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX) - *Intermediate*.
 
 *   **Advanced RL:**
@@ -64,7 +64,7 @@ This section organizes courses by major subject areas.
 #### 1.5. Machine Learning (General)
 
 *   **Foundational ML:**
-    *   **Highly Recommended:** [Andrew Ng's Machine Learning (Coursera)](https://www.coursera.org/learn/machine-learning) - *Basic*. The classic introductory course.
+    *   **Highly Recommended:** [Andrew Ng's Machine Learning (Coursera)](https://www.coursera.org/learn/machine-learning) - *Basic*. The classic introductory course. **Core Concept:** *Provides a comprehensive introduction to the most common ML algorithms (linear regression, logistic regression, SVMs, etc.) and fundamental concepts (regularization, cross-validation).*
     *   [Learning about machine and deep learning](https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx) (YouTube) - *Basic*.
     * [Advanced ML](https://www.youtube.com/playlist?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR) (YouTube)- *Advanced*.
     *  [Statistical Machine Learning by Ulrike von Luxburg](https://www.youtube.com/playlist?list=PL05umP7R6ij1tHaOFY96m5uX3J21a6yNd)(YouTube) - *Advanced*.
@@ -78,7 +78,7 @@ This section organizes courses by major subject areas.
 
 #### 1.7. General AI
 
-*   [Berkeley AI (CS188)](https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL) (YouTube) - *Basic*. Broad overview of AI concepts.
+*   [Berkeley AI (CS188)](https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL) (YouTube) - *Basic*. Broad overview of AI concepts. **Core Concept:** *Introduces fundamental AI algorithms for search, planning, and decision-making.*
 
 #### 1.8. Information Theory
 
@@ -86,14 +86,14 @@ This section organizes courses by major subject areas.
 
 #### 1.9. Statistics & Probability
 
-*   [StatQuest: Statistics and Machine Learning](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) (YouTube) - *Basic*. Clear explanations.
-*   [Khan Academy: Statistics and Probability](https://www.khanacademy.org/math/statistics-probability) - *Basic to Advanced*. Comprehensive, from basic to advanced.
+*   [StatQuest: Statistics and Machine Learning](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) (YouTube) - *Basic*. Clear explanations. **Core Concept:** *Explains statistical concepts with exceptional clarity, building the foundations for understanding ML algorithms.*
+*   [Khan Academy: Statistics and Probability](https://www.khanacademy.org/math/statistics-probability) - *Basic to Advanced*. Comprehensive, from basic to advanced. **Core Concept:** *Provides a complete foundation in probability theory and statistical inference.*
 * [Statistics 110 Harvard](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) (YouTube) - *Intermediate*.
 
 #### 1.10. Linear Algebra
 
-*   [Gilbert Strang's Linear Algebra (MIT OCW)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) - *Basic to Intermediate*. A classic course.
-*   [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (YouTube) - *Basic*. Visual and intuitive.
+*   [Gilbert Strang's Linear Algebra (MIT OCW)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) - *Basic to Intermediate*. A classic course. **Core Concept:** *Introduces the essential linear algebra concepts (vectors, matrices, eigenvalues, eigenvectors) used throughout ML and DL.*
+*   [3Blue1Brown: Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (YouTube) - *Basic*. Visual and intuitive. **Core Concept:** *Provides a visual and geometric understanding of linear algebra concepts, making them more intuitive and accessible.*
 * [Linear Algebra(Prof. Gilbert Strang) - MIT](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8) - *Intermediate*.
 
 #### 1.11. Calculus
