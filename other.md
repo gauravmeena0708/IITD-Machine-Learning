@@ -51,8 +51,8 @@
         </tr>
     </tbody>
 </table>
-<a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR">Topics in Math with application in Finance</a>  
-https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx
+<a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR">Topics in Math with application in Finance</a><br/>
+<a href="https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx">Learning about machine and deep learning</a>
 
 ### Other Tools
 1. [Bullshit remover](https://www.bullshitremover.com/)
@@ -101,27 +101,27 @@ https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx
 1. [Speech and language Processing](https://web.stanford.edu/~jurafsky/slp3/)
 
 ## Classic CV 
-1. https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0
-2. https://www.mdpi.com/1424-8220/21/2/400
-3. https://medium.com/@medsadek.snoussi/image-processing-585f2e1ecb59
-4. https://www.linkedin.com/pulse/lane-detection-tracking-using-classic-computer-vision-shrivastava/
-5. https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0
-6. https://onlinelibrary.wiley.com/doi/10.1155/2018/8320207
-7. https://onlinelibrary.wiley.com/doi/10.1155/2021/6664970
-8. https://www.extrica.com/article/22023/pdf
-9. https://www.mdpi.com/2079-9292/10/6/655
+1. [https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0](https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0)
+2. [https://www.mdpi.com/1424-8220/21/2/400](https://www.mdpi.com/1424-8220/21/2/400)
+3. [https://medium.com/@medsadek.snoussi/image-processing-585f2e1ecb59](https://medium.com/@medsadek.snoussi/image-processing-585f2e1ecb59)
+4. [https://www.linkedin.com/pulse/lane-detection-tracking-using-classic-computer-vision-shrivastava/](https://www.linkedin.com/pulse/lane-detection-tracking-using-classic-computer-vision-shrivastava/)
+5. [https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0](https://medium.com/swlh/lane-finding-with-computer-vision-techniques-bad24828dbc0)
+6. [https://onlinelibrary.wiley.com/doi/10.1155/2018/8320207](https://onlinelibrary.wiley.com/doi/10.1155/2018/8320207)
+7. [https://onlinelibrary.wiley.com/doi/10.1155/2021/6664970](https://onlinelibrary.wiley.com/doi/10.1155/2021/6664970)
+8. [https://www.extrica.com/article/22023/pdf](https://www.extrica.com/article/22023/pdf)
+9. [https://www.mdpi.com/2079-9292/10/6/655](https://www.mdpi.com/2079-9292/10/6/655)
 
 ## Learn how to type
-1. https://www.keybr.com/
-2. https://monkeytype.com/
+1. [https://www.keybr.com/](https://www.keybr.com/)
+2. [https://monkeytype.com/](https://monkeytype.com/)
 
 ## Mitesh Khapra
 1. [Introduction to large language models](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM)
 2. [Deep Learning](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU)
 3. [NLP with DL](https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU)
 4. [RNN With DL](https://www.youtube.com/playlist?list=PLGP2q2bIgaNy9_tR-a0fElXJ1Ou-iB2IU)
-5. https://www.youtube.com/playlist?list=PLgF7i4LH-YxacgG0OPmTYe1UUQAvcw9Ke
-6. https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
+5. [Yann Lecun's DL](https://www.youtube.com/playlist?list=PLgF7i4LH-YxacgG0OPmTYe1UUQAvcw9Ke)
+6. [Stanford DL](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 
 ## Computer architechture
 1. [Computer Architecture by David Black-Schaffer](https://www.youtube.com/playlist?list=PL9b_pbvWZfKjzceHxm8aceOvNR_6icJI-)
