@@ -31,6 +31,12 @@ This section organizes courses by major subject areas.
     *   [Large Language Models by Prof. Tanmay Chakraborty](https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-) (YouTube) - *Intermediate*.
     *   [Mitesh Khapra's Large Language Models](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM) (YouTube) - *Intermediate*.
     *   [Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1/1) - *Basic to Intermediate*. Excellent practical introduction to Transformer models. Code-focused. **Core Concept:** *Practical understanding of transformers, tokenizers, and how to use the Hugging Face library for NLP tasks.*
+      
+*   **Practicals:**
+    * [Text processing and mining by KGP Talkie](https://www.youtube.com/playlist?list=PLc2rvfiptPSToz3K_ozo7zrMJXqe16YUd)
+    * [NLP Tutorials](https://www.youtube.com/playlist?list=PLc2rvfiptPSQgsORc7iuv7UxhbRJox-pW)
+    * [NLP Projects](https://www.youtube.com/playlist?list=PLc2rvfiptPSQRAtgpBph4rGnuNMw1LJys)
+    * [Local LLM Projects](https://www.youtube.com/playlist?list=PLc2rvfiptPSReropGbvDFpB6dneNBwqhD) 
 
 #### 1.3. Computer Vision (CV) & Image Processing
 
