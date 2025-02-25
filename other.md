@@ -15,12 +15,24 @@
             <a href="https://www.youtube.com/playlist?list=PLEAYkSg4uSQ0Q5Z1IYI-0g2cbD-2Rt-I6">Deep Learning for computer vision-Prof. Vineeth N Balasubramanian   |   IIT Hyderabad</a></td>
         </tr>
         <tr>
+            <td>Courses about Deep Learning</td>
+            <td>
+                <a href="https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM">Mitesh Khapra's Large Language Models</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU">Mitesh Khapra's Deep Learning</><br/>
+                <a href="https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU">Mitesh Khapra's NLP with DL</><br/>
+                <a href="https://www.youtube.com/playlist?list=PLGP2q2bIgaNy9_tR-a0fElXJ1Ou-iB2IU">Mitesh Khapra's RNN with DL</><br/>
+                <a href="https://www.youtube.com/playlist?list=PLgF7i4LH-YxacgG0OPmTYe1UUQAvcw9Ke">Yenn Lecunns DL</><br/>
+                <a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv">Stanfords DL</><br/>
+                <a href="https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx">Learning about machine and deep learning</a><br/>
+            </td>
+        </tr>
+        <tr>
             <td>Courses about Reinforcement Learning</td>
             <td>
                 <a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a><br/>
                 <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX">Reinforcement Learning-Stanford</a><br/>
                 <a href="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ">RL by David Silver</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH">Deep RL UC Berkley</a>
+                <a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH">Deep RL UC Berkley</a><br/>
             </td>
         </tr>
          <tr>
@@ -51,8 +63,7 @@
         </tr>
     </tbody>
 </table>
-<a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR">Topics in Math with application in Finance</a><br/>
-<a href="https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx">Learning about machine and deep learning</a>
+<a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR">Topics in Math with application in Finance</a>
 
 ### Other Tools
 1. [Bullshit remover](https://www.bullshitremover.com/)
@@ -115,13 +126,8 @@
 1. [https://www.keybr.com/](https://www.keybr.com/)
 2. [https://monkeytype.com/](https://monkeytype.com/)
 
-## Mitesh Khapra
-1. [Introduction to large language models](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM)
-2. [Deep Learning](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU)
-3. [NLP with DL](https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU)
-4. [RNN With DL](https://www.youtube.com/playlist?list=PLGP2q2bIgaNy9_tR-a0fElXJ1Ou-iB2IU)
-5. [Yann Lecun's DL](https://www.youtube.com/playlist?list=PLgF7i4LH-YxacgG0OPmTYe1UUQAvcw9Ke)
-6. [Stanford DL](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
+## Mitesh Khapra  
+
 
 ## Computer architechture
 1. [Computer Architecture by David Black-Schaffer](https://www.youtube.com/playlist?list=PL9b_pbvWZfKjzceHxm8aceOvNR_6icJI-)
