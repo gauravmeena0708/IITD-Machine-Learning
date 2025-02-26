@@ -139,6 +139,9 @@
 1. [Prof Leonard](https://www.youtube.com/playlist?list=PLF797E961509B4EB5)
 2. [Discrete Maths](https://www.youtube.com/playlist?list=PLl-gb0E4MII28GykmtuBXNUNoej-vY5Rz)
 
+## 11 and 12th
+1. [https://iitpal.iitd.ac.in/](https://iitpal.iitd.ac.in/)
+
 <!--
 <tr>
             <td>2</td>
