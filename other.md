@@ -25,6 +25,7 @@
                 <a href="https://www.youtube.com/playlist?list=PLgF7i4LH-YxacgG0OPmTYe1UUQAvcw9Ke">Yenn Lecunns DL</><br/>
                 <a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv">Stanfords DL</><br/>
                 <a href="https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx">Learning about machine and deep learning</a><br/>
+                <a href="https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn">100 days of Deep Learning - Campus X</a>
             </td>
         </tr>
         <tr>
