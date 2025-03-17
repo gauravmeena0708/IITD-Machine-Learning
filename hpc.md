@@ -11,3 +11,24 @@ qsub -I -P ail721.aib242286.course -q scai_q -l select=1:ncpus=4:ngpus=1:mem=24G
 
 ## Non-interactive job 
 qsub -P ail721.aib242286.course      -l select=1:ncpus=4:ngpus=1:mem=24G:centos=skylake      -l walltime=01:30:00      -o out.txt      ~/job.sh
+
+## Tmux
+
+        tmux list
+
+Start a new session or attach to an existing session named mysession  
+
+        tmux new-session -A -s mysession 
+
+kill session  
+
+        tmux kill-session -t mysession
+
+Detach : CTRL+B and d
+
+attach
+
+        tmux attach-session -t mysession
+
+1. https://tmuxcheatsheet.com/
+2. https://gist.github.com/MohamedAlaa/2961058
