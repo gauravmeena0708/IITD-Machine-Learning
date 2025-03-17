@@ -37,6 +37,10 @@ Detach : CTRL+B and d
 
 attach
 
+shift sessions
+
+    CTRL+B ( or )
+
         tmux attach-session -t mysession
 
 1. https://tmuxcheatsheet.com/
