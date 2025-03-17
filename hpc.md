@@ -50,3 +50,4 @@ Shift between windows
     CTRL+B <- or ->
 1. https://tmuxcheatsheet.com/
 2. https://gist.github.com/MohamedAlaa/2961058
+3. https://www.youtube.com/watch?v=Yl7NFenTgIo
