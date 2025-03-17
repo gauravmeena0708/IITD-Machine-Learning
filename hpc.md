@@ -1,12 +1,19 @@
+Simple job
+
     qsub -I -P ail721.aib242286.course -l select=1:ncpus=4:ngpus=1:mem=24G:centos=skylake -l walltime=01:30:00  
+Time approx job list
 
     qstat -T -u aib242286
+    
+Anaconda Install
 
     wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh  
-
     bash ~/Anaconda3-2024.10-1-Linux-x86_64.sh  
 
+High Priority q
+
     qsub -I -P ail721.aib242286.course -q high -l select=1:ncpus=4:ngpus=1:mem=24G:centos=skylake -l walltime=05:00:00  
+SCAI q
 
     qsub -I -P ail721.aib242286.course -q scai_q -l select=1:ncpus=4:ngpus=1:mem=24G:centos=skylake -l walltime=01:30:00 
 
