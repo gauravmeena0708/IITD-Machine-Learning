@@ -37,15 +37,16 @@ Detach : CTRL+B and d
 
 attach
 
+    tmux attach-session -t mysession
+
 shift sessions
 
     CTRL+B ( or )
 New window on side
 
     CTRL+B % 
-attach
+Shift between windows
 
-    tmux attach-session -t mysession
-
+    CTRL+B <- or ->
 1. https://tmuxcheatsheet.com/
 2. https://gist.github.com/MohamedAlaa/2961058
