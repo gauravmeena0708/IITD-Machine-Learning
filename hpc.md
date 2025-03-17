@@ -40,8 +40,12 @@ attach
 shift sessions
 
     CTRL+B ( or )
+New window on side
 
-        tmux attach-session -t mysession
+    CTRL+B % 
+attach
+
+    tmux attach-session -t mysession
 
 1. https://tmuxcheatsheet.com/
 2. https://gist.github.com/MohamedAlaa/2961058
