@@ -45,6 +45,9 @@ shift sessions
 New window on side
 
     CTRL+B % 
+New window on bottom
+
+    CTRL+B " 
 Shift between windows
 
     CTRL+B <- or ->
