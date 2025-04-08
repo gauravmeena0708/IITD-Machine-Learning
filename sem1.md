@@ -68,7 +68,7 @@
 
 | Course  |      Topics     |
 |----------|-------------|
-| COL774 | Linear repression, Logistic Regression (Binary, Multinominal), Neural Networks(Binary, Multi), Activation functionss (sigmoid, softmax, ReLU, tanh) CNNs ... Feature Selection (PSO, PCA), Hyper Param tuning(Grid Search, Ternary Search, Adam, adagrad. adadelta, RMSProp), Initialisation (Xavier, random) ... Try Standerdization/Normalisation if model not converging ..  AutoEncoder, RNN, PCA, NaiveBayes, Decision Trees |
+| COL774 | Linear repression, Logistic Regression (Binary, Multinominal), Neural Networks(Binary, Multi), Activation functionss (sigmoid, softmax, ReLU, tanh) CNNs ... Feature Selection (PSO, PCA), Hyper Param tuning(Grid Search, Ternary Search, Adam, adagrad. adadelta, RMSProp), Initialisation (Xavier, random) ... Try Standardization/Normalisation if model not converging ..  AutoEncoder, RNN, PCA, NaiveBayes, Decision Trees, EM algorithms |
 | COL671 | Search (DFS, iDFS, Bredth FS, Best FS, Greedy, A* etc), Local Search(local Beam, Hill Climbing, Simulated Annealing).. Random walks, restarts, early stopping ... Probabilistic interference, Constraint Satisfaction Problems, Bayesnet, NaiveBayes|
 | ELL880 | Homophily, cascading behaviour, Graph Neural Networks |
 | ELL780 | Linear Algebra, Real Analysis, Convex Optimization |
