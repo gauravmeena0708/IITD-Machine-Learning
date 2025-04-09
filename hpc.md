@@ -5,6 +5,10 @@ Time approx job list
 
     qstat -T -u aib242286
     
+Adding all terminal output to log file
+
+    python run3.py > log3_run4.txt 2>&1
+    
 Anaconda Install
 
     wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh  
