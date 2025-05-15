@@ -22,6 +22,7 @@ SCAI q
     qsub -I -P ail721.aib242286.course -q scai_q -l select=1:ncpus=4:ngpus=1:mem=24G:centos=skylake -l walltime=01:30:00 
 
 ## Non-interactive job 
+    qsub -P scai -q scai_q -l select=1:ncpus=1:ngpus=1:mem=24G:centos=skylake  -l walltime=02:30:00      -o out_train_tabsyn.txt      ~/job2.sh
 
     qsub -P ail721.aib242286.course      -l select=1:ncpus=4:ngpus=1:mem=24G:centos=skylake      -l walltime=01:30:00      -o out.txt      ~/job.sh
 
