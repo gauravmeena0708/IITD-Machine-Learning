@@ -9,3 +9,4 @@
 7. https://www.youtube.com/playlist?list=PLfv9eTYgatm251SRqosU9ycs0ZgZacl9G - Portfolio Optimization
 8. https://www.youtube.com/playlist?list=PL4108D90CA93915EB                 - Option pricing
 9. https://www.youtube.com/playlist?list=PLWOwTjItERc7lFHz0ERMWsZLvTdjsJlk4 - Binomial option pricing model
+10. https://www.youtube.com/playlist?list=PLEDC55106E0BA18FC                - Financial Economics yale
