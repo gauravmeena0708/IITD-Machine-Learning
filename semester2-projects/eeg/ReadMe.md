@@ -1,2 +1,0 @@
-## EEG Multicategory Dataset
-
