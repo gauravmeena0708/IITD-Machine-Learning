@@ -1,11 +1,11 @@
 LeetCode Common Patterns: Python Templates
 
 This document provides Python templates for common algorithmic patterns encountered in LeetCode problems.
-1. Sliding Window
+## 1. Sliding Window
 
 This pattern is used to perform an operation on a specific window size of a given array or string. The window "slides" across the data structure.
-General Template
-
+### General Template
+```python
 def sliding_window_template(arr, k):
     if not arr or k == 0:
         return [] # Or appropriate return for empty/invalid input
@@ -34,9 +34,10 @@ def sliding_window_template(arr, k):
             window_start += 1
             
     return result
+```
 
-Example: Maximum Sum Subarray of Size K
-
+### Example: Maximum Sum Subarray of Size K
+```python
 def max_sum_subarray_of_size_k(arr, k):
     if not arr or k <= 0 or k > len(arr):
         return 0 # Or raise an error
@@ -57,12 +58,13 @@ def max_sum_subarray_of_size_k(arr, k):
 
 # print(max_sum_subarray_of_size_k([2, 1, 5, 1, 3, 2], 3)) # Output: 9
 # print(max_sum_subarray_of_size_k([2, 3, 4, 1, 5], 2))    # Output: 7
+```
 
-2. Two Pointers
+## 2. Two Pointers
 
 This pattern uses two pointers to iterate through a data structure, often an array, until they meet or satisfy a certain condition. The pointers can move towards each other, away from each other, or in the same direction.
-Template: Pointers Moving Towards Each Other (e.g., for sorted arrays)
-
+### Template: Pointers Moving Towards Each Other (e.g., for sorted arrays)
+```python
 def two_pointers_converging_template(arr, target): # Example: target sum
     left, right = 0, len(arr) - 1
     
@@ -84,9 +86,10 @@ def two_pointers_converging_template(arr, target): # Example: target sum
     
 # print(two_pointers_converging_template([1, 2, 3, 4, 6], 6)) # Output: [1, 3] (indices for 2 and 4)
 # print(two_pointers_converging_template([2, 5, 9, 11], 11))# Output: [0, 2] (indices for 2 and 9)
+```
 
-Template: Pointers Moving in the Same Direction (can overlap with Fast/Slow or Sliding Window)
-
+### Template: Pointers Moving in the Same Direction (can overlap with Fast/Slow or Sliding Window)
+```python
 def two_pointers_same_direction_template(arr):
     slow = 0 # "Slow" or "read" pointer
     # "fast" or "write" pointer usually starts at 0 or 1, depending on problem
@@ -98,17 +101,23 @@ def two_pointers_same_direction_template(arr):
             slow += 1
     # slow now represents the length of the valid part of the array
     return slow # or arr[:slow]
+```
 
-3. Fast & Slow Pointers (Floyd's Tortoise and Hare)
+## 3. Fast & Slow Pointers (Floyd's Tortoise and Hare)
 
 Often used in linked lists to detect cycles, find the middle element, or in arrays for cycle detection (e.g., find duplicate number where numbers are in a range).
 
-# Definition for singly-linked list (common in LeetCode)
+### Definition for singly-linked list (common in LeetCode)
+```python
 class ListNode:
     def __init__(self, value, next_node=None): # Renamed next to next_node for clarity
         self.val = value
         self.next = next_node
+```
 
+
+#### Function: has_cycle_linked_list
+```python
 def has_cycle_linked_list(head: ListNode) -> bool:
     slow, fast = head, head
     while fast and fast.next:
@@ -117,7 +126,10 @@ def has_cycle_linked_list(head: ListNode) -> bool:
         if slow == fast:
             return True # Cycle detected
     return False
+```
 
+#### Function: cycle_start_linked_list
+```python
 def cycle_start_linked_list(head: ListNode) -> ListNode:
     slow, fast = head, head
     cycle_detected = False
@@ -138,14 +150,19 @@ def cycle_start_linked_list(head: ListNode) -> ListNode:
         pointer1 = pointer1.next
         pointer2 = pointer2.next
     return pointer1 # This is the start of the cycle
+```
 
+#### Function: find_middle_of_linked_list
+```python
 def find_middle_of_linked_list(head: ListNode) -> ListNode:
     slow, fast = head, head
     while fast and fast.next:
         slow = slow.next
         fast = fast.next.next
     return slow # When fast reaches the end, slow is at the middle
+```
 
+```python
 # Example usage (assuming ListNode is defined and list is created):
 # node1 = ListNode(1)
 # node2 = ListNode(2)
@@ -161,11 +178,12 @@ def find_middle_of_linked_list(head: ListNode) -> ListNode:
 # node4.next = node2 # Create a cycle: 4 -> 2
 # print(f"Has cycle: {has_cycle_linked_list(node1)}") # Output: True
 # print(f"Cycle start value: {cycle_start_linked_list(node1).val}") # Output: 2
+```
 
-4. Merge Intervals
+## 4. Merge Intervals
 
 This pattern deals with merging overlapping intervals. An interval is typically represented as a pair [start, end].
-
+```python
 def merge_intervals(intervals: list[list[int]]) -> list[list[int]]:
     if not intervals:
         return []
@@ -193,11 +211,14 @@ def merge_intervals(intervals: list[list[int]]) -> list[list[int]]:
 
 # intervals3 = [[1,4],[0,4]]
 # print(merge_intervals(intervals3)) # Output: [[0,4]]
+```
 
-5. Cyclic Sort
+## 5. Cyclic Sort
 
 This pattern is used when problems involve arrays containing numbers in a specific range (e.g., 1 to N, or 0 to N-1). The idea is to place each number at its correct index.
 
+### Core `cyclic_sort` Implementation
+```python
 def cyclic_sort(nums: list[int]):
     """Sorts an array in-place if it contains numbers from 1 to N."""
     i = 0
@@ -214,13 +235,17 @@ def cyclic_sort(nums: list[int]):
             i += 1
     # After this, nums[i] should be i+1 if no duplicates/missing
     # Or, if numbers are 0 to N-1, correct_idx = nums[i]
+```
 
-# Example:
+### Example: Basic Cyclic Sort
+```python
 # arr = [3, 1, 5, 4, 2] # Numbers from 1 to 5
 # cyclic_sort(arr)
 # print(arr) # Output: [1, 2, 3, 4, 5]
+```
 
-# To find missing/duplicate numbers after cyclic sort:
+#### Finding Missing Number (1 to N)
+```python
 def find_missing_number_1_to_N(nums: list[int]) -> int:
     """Assumes nums contains N distinct numbers taken from the range [0, N]
        or N-1 distinct numbers from [1,N] and one is missing.
@@ -233,9 +258,12 @@ def find_missing_number_1_to_N(nums: list[int]) -> int:
     return len(nums) + 1 # If all numbers 1..N are present (e.g., if problem allows this)
 
 # arr_missing = [3, 1, 5, 2] # Missing 4, N=5 (conceptually, array size 4)
+```
 # To use find_missing_number_1_to_N directly, adjust problem formulation or function
 # A more common "find missing number" assumes numbers 0..N, with one missing.
 # Example using cyclic sort for finding the first K missing positives
+#### Finding First K Missing Positives
+```python
 def find_first_k_missing_positives(nums: list[int], k: int) -> list[int]:
     n = len(nums)
     i = 0
@@ -279,17 +307,24 @@ def find_first_k_missing_positives(nums: list[int], k: int) -> list[int]:
     # 2. Iterate nums: if nums[i] != i+1, add i+1 to missing (if unique), add nums[i] to seen_extra.
     # 3. Iterate i from 1: if n+i not in seen_extra, add n+i to missing. Stop when len(missing) == k.
     return missing_numbers # Placeholder, full k-missing is more involved.
+```
 
-6. In-place Reversal of a LinkedList
+## 6. In-place Reversal of a LinkedList
 
 This pattern reverses a portion or the entirety of a linked list without using extra space (O(1) space).
 
-# Definition for singly-linked list (repeated for clarity)
+### Definition for singly-linked list (repeated for clarity)
+```python
 # class ListNode:
 #     def __init__(self, value, next_node=None):
 #         self.val = value
 #         self.next = next_node
+```
 
+### Reversal Functions
+
+#### Reversing the Entire List
+```python
 def reverse_linked_list(head: ListNode) -> ListNode:
     prev = None
     current = head
@@ -299,7 +334,10 @@ def reverse_linked_list(head: ListNode) -> ListNode:
         prev = current         # Move prev one step forward
         current = next_temp    # Move current one step forward
     return prev # prev is the new head
+```
 
+#### Reversing a Sub-list
+```python
 def reverse_sub_list(head: ListNode, p: int, q: int) -> ListNode:
     if p == q:
         return head
@@ -342,7 +380,9 @@ def reverse_sub_list(head: ListNode, p: int, q: int) -> ListNode:
     # current is the node that was originally (q+1)-th node
     last_node_of_sub_list.next = current 
     return head
+```
 
+```python
 # Example usage needs ListNode class and list creation
 # head_list = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
 # reversed_head = reverse_linked_list(head_list)
@@ -353,20 +393,28 @@ def reverse_sub_list(head: ListNode, p: int, q: int) -> ListNode:
 # reversed_sub_head = reverse_sub_list(head_list_sub, 2, 4) # Reverse 2-3-4
 # current = reversed_sub_head
 # while current: print(current.val, end=" -> "); current = current.next; # 1 -> 4 -> 3 -> 2 -> 5 ->
+```
 
-7. Tree Breadth-First Search (BFS)
+## 7. Tree Breadth-First Search (BFS)
 
 This pattern is used to traverse a tree level by level. It uses a queue.
-
+```python
 from collections import deque
+```
 
-# Definition for a binary tree node (common in LeetCode)
+### Definition for a binary tree node (common in LeetCode)
+```python
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
+```
 
+### BFS Implementations
+
+#### Level Order Traversal
+```python
 def tree_bfs_level_order_traversal(root: TreeNode) -> list[list[int]]:
     if not root:
         return []
@@ -391,7 +439,9 @@ def tree_bfs_level_order_traversal(root: TreeNode) -> list[list[int]]:
             result.append(current_level_nodes_values)
             
     return result
+```
 
+```python
 # Example (assumes TreeNode class is defined):
 # root = TreeNode(12)
 # root.left = TreeNode(7)
@@ -401,19 +451,25 @@ def tree_bfs_level_order_traversal(root: TreeNode) -> list[list[int]]:
 # root.right.right = TreeNode(5)
 # print(tree_bfs_level_order_traversal(root))
 # Output: [[12], [7, 1], [9, 10, 5]]
+```
 
-8. Tree Depth-First Search (DFS)
+## 8. Tree Depth-First Search (DFS)
 
 This pattern is used to traverse a tree by exploring as far as possible along each branch before backtracking. It can be implemented recursively or iteratively (using a stack).
 
-# Definition for a binary tree node (repeated for clarity)
+### Definition for a binary tree node (repeated for clarity)
+```python
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
+```
 
-# --- Recursive DFS Templates ---
+### Recursive DFS Templates
+
+#### Function: tree_dfs_preorder_recursive
+```python
 def tree_dfs_preorder_recursive(root: TreeNode) -> list[int]:
     result = []
     def dfs(node):
@@ -424,7 +480,10 @@ def tree_dfs_preorder_recursive(root: TreeNode) -> list[int]:
         dfs(node.right)         # Right
     dfs(root)
     return result
+```
 
+#### Function: tree_dfs_inorder_recursive
+```python
 def tree_dfs_inorder_recursive(root: TreeNode) -> list[int]:
     result = []
     def dfs(node):
@@ -435,7 +494,10 @@ def tree_dfs_inorder_recursive(root: TreeNode) -> list[int]:
         dfs(node.right)         # Right
     dfs(root)
     return result
+```
 
+#### Function: tree_dfs_postorder_recursive
+```python
 def tree_dfs_postorder_recursive(root: TreeNode) -> list[int]:
     result = []
     def dfs(node):
@@ -446,8 +508,12 @@ def tree_dfs_postorder_recursive(root: TreeNode) -> list[int]:
         result.append(node.val) # Process node (Root)
     dfs(root)
     return result
+```
 
-# --- Iterative DFS Template (Pre-order using a stack) ---
+### Iterative DFS Template (Pre-order using a stack)
+
+#### Function: tree_dfs_preorder_iterative
+```python
 def tree_dfs_preorder_iterative(root: TreeNode) -> list[int]:
     if not root:
         return []
@@ -466,9 +532,12 @@ def tree_dfs_preorder_iterative(root: TreeNode) -> list[int]:
             stack.append(node.left)
             
     return result
+```
 
 # Iterative In-order and Post-order are more complex.
 # In-order iterative:
+#### Function: tree_dfs_inorder_iterative
+```python
 def tree_dfs_inorder_iterative(root: TreeNode) -> list[int]:
     result = []
     stack = []
@@ -481,8 +550,9 @@ def tree_dfs_inorder_iterative(root: TreeNode) -> list[int]:
         result.append(current.val) # Visit node
         current = current.right # Go right
     return result
+```
 
-
+```python
 # Example (assumes TreeNode class is defined):
 # root = TreeNode(12)
 # root.left = TreeNode(7, TreeNode(9))
@@ -493,5 +563,4 @@ def tree_dfs_inorder_iterative(root: TreeNode) -> list[int]:
 # print("Post-order Recursive:", tree_dfs_postorder_recursive(root))# [9, 7, 10, 5, 1, 12]
 # print("Pre-order Iterative:", tree_dfs_preorder_iterative(root)) # [12, 7, 9, 1, 10, 5]
 # print("In-order Iterative:", tree_dfs_inorder_iterative(root))   # [9, 7, 12, 10, 1, 5]
-
-This Markdown file now contains all the templates. Remember to uncomment the example usages and define the ListNode and TreeNode classes if you want to run the examples directly.
+```
