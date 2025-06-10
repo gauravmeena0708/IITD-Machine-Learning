@@ -368,26 +368,32 @@ function bfsReachable(board, start) {
 }
 
 // Fixing edges identification
+//
+// REPLACEMENT for the getAllEdges function
+//
 function getAllEdges(dim) {
-  const siz = Math.floor((dim + 1) / 2);
-  const sides = [
-    Array.from({ length: siz - 2 }, (_, i) => `${0},${i + 1}`), // Top edge (excluding corners)
-    Array.from({ length: dim - siz - 1 }, (_, i) => `${i + 1},${dim - 1}`), // Right edge
-    Array.from({ length: siz - 2 }, (_, i) => `${dim - 1},${siz + i}`), // Bottom edge (excluding corners)
-    Array.from({ length: siz - 2 }, (_, i) => `${siz - 1 + i},${0}`), // Left edge (excluding corners)
-  ];
-  return sides.map((edge) => new Set(edge));
-}
+  const layers = Math.floor((dim + 1) / 2);
+  const sides = [[], [], [], [], [], []]; // Create arrays for 6 sides
 
-function getAllEdges(dim) {
-  const siz = Math.floor((dim + 1) / 2);
-  const sides = [
-    Array.from({ length: siz }, (_, i) => `${0},${i}`), // Top edge
-    Array.from({ length: siz }, (_, i) => `${i},${dim - 1}`), // Right edge
-    Array.from({ length: siz }, (_, i) => `${dim - 1},${siz + i - 1}`), // Bottom edge
-    Array.from({ length: siz }, (_, i) => `${siz - 1 + i},${0}`), // Left edge
-  ];
-  return sides.map((edge) => new Set(edge));
+  // Iterate over every potential cell on the board
+  for (let i = 0; i < dim; i++) {
+    for (let j = 0; j < dim; j++) {
+      // Skip corners
+      if ( (i === 0 && j === 0) || (i === 0 && j === layers - 1) ||
+           (i === layers - 1 && j === 0) || (i === dim - 1 && j === layers - 1) ||
+           (i === layers - 1 && j === dim - 1) || (i === dim - 1 && j === dim - 1)
+         ) continue;
+      
+      // Check which of the 6 boundaries the cell lies on
+      if (i === 0 && j < layers - 1) sides[0].push(`${i},${j}`); // Top-Left side
+      else if (j - i === layers - 1 && i < layers-1) sides[1].push(`${i},${j}`); // Top-Right side
+      else if (j === dim - 1 && i < dim-1 && i >= layers-1) sides[2].push(`${i},${j}`); // Right side
+      else if (i === dim - 1 && j > layers - 1) sides[3].push(`${i},${j}`); // Bottom-Right side
+      else if (i - j === layers - 1 && i > layers-1) sides[4].push(`${i},${j}`); // Bottom-Left side
+      else if (j === 0 && i > layers-1) sides[5].push(`${i},${j}`); // Left side
+    }
+  }
+  return sides.map(edge => new Set(edge));
 }
 
 // Helper function to check if a side has reachable points
