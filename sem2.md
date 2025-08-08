@@ -44,10 +44,12 @@
             <td></td>
         </tr>
         <tr>
+            <td>BML 738 Biomedical Data analysis</td>
+            <td>
+                <a href="https://notebooklm.google.com/notebook/8ea22704-a646-4b8b-97cd-51d3cec21ed4">Notebook LM </a>
+            </td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
             <td></td>
         </tr>
     </tbody>
