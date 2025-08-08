@@ -1,4 +1,4 @@
-# Semester 2
+# Semester 3
 
 <table>
     <tbody>
