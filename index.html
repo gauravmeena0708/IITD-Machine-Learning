@@ -3,26 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Viewer</title>
+    <title>Course Catalog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <header>
+            <h1>Course Catalog</h1>
+        </header>
         <aside class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="#" data-src="sem1.md">Semester 1</a></li>
-                    <li><a href="#" data-src="sem2.md">Semester 2</a></li>
-                    <li><a href="#" data-src="sem3.md">Semester 3</a></li>
-                    <li><a href="#" data-src="other.md">Other Resources</a></li>
-                </ul>
-            </nav>
+            <nav id="navigation"></nav>
         </aside>
-        <main class="content">
-            <h1>Select a semester to view content</h1>
+        <main class="content" id="content-area">
+            <h2>Welcome to the Course Catalog</h2>
+            <p>Select a category from the sidebar to view the content.</p>
         </main>
     </div>
-    <script src="marked.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,331 @@
+{
+  "semesters": [
+    {
+      "name": "Semester 1",
+      "courses": [
+        {
+          "title": "COL774 Machine Learning",
+          "professor": "Prof. Rahul Garg",
+          "related_courses": [
+            {
+              "title": "CS229 by Andrew Ng",
+              "url": "https://www.youtube.com/watch?v=het9HFqo1TQ"
+            },
+            {
+              "title": "Machine Learning IITM",
+              "url": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K"
+            },
+            {
+              "title": "Purdue ML",
+              "url": "https://www.youtube.com/playlist?list=PL4FSfq6xtSvyqEsz3UUnAizemXJfQyDVD"
+            }
+          ],
+          "books": [
+            {
+              "title": "Pattern Recognition - Christopher Bishop",
+              "url": null
+            }
+          ],
+          "resources": [
+            {
+              "title": "Lectures",
+              "url": "https://drive.google.com/drive/folders/1WGocC7x2Ax8d9fLHeyOCNIH-k44HJQKB?usp=sharing"
+            },
+            {
+              "title": "Assignments",
+              "url": "https://github.com/gauravmeena0708/IITD-Machine-Learning/tree/main/semester1-projects"
+            }
+          ]
+        },
+        {
+          "title": "COL671 Artificial Intelligence",
+          "professor": "Prof. Rohan Paul",
+          "related_courses": [
+            {
+              "title": "Introduction to AI by Prof. Mausam",
+              "url": "https://www.youtube.com/playlist?list=PLp6ek2hDcoNB_YJCruBFjhF79f5ZHyBuz"
+            },
+            {
+              "title": "CS188 AI",
+              "url": "https://www.youtube.com/playlist?list=PL5gYI166VpDY6n0BGxNBkB-t1O0z4RmrJ"
+            },
+            {
+              "title": "CS188 AI2",
+              "url": "https://www.youtube.com/playlist?list=PLsOUugYMBBJENfZ3XAToMsg44W7LeUVhF"
+            }
+          ],
+          "books": [
+            {
+              "title": "Berkley Exams",
+              "url": "https://ai.berkeley.edu/exams.html"
+            },
+            {
+              "title": "Berkley Handouts",
+              "url": "https://ai.berkeley.edu/section_handouts.html"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Lectures",
+              "url": "https://drive.google.com/drive/folders/19jvNCQR4_2WWiuIHGHM-TuJFBOYwq0LN?usp=sharing"
+            },
+            {
+              "title": "Assignments",
+              "url": "https://github.com/gauravmeena0708/IITD-Machine-Learning/tree/main/semester1-projects"
+            }
+          ]
+        },
+        {
+          "title": "ELL780 Mathematics",
+          "professor": "Prof. Sandeep Kumar",
+          "related_courses": [
+            {
+              "title": "Gilbert Strang - Linear Algebra - 18.06 - 2005",
+              "url": "https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8"
+            },
+            {
+              "title": "Gilbert Strang - Linear Algebra for DS- 18.065 - 2018",
+              "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k"
+            },
+            {
+              "title": "Ketan Rajawat - Convex optimization - EE609 - IITK",
+              "url": "https://www.youtube.com/playlist?list=PLG4ZBab_DdoeZOWHJhUAA8fzTTumHP2O-"
+            },
+            {
+              "title": "Real Analysis by Ignited Minds",
+              "url": "https://www.youtube.com/playlist?list=PLTYWkBB_Zi67KTmbeDxxBPxcEeqPfPC6f"
+            }
+          ],
+          "books": [
+            {
+              "title": "Introduction to linear Algebra - Gilbert Strang",
+              "url": null
+            },
+            {
+              "title": "Linear Algebra and Learning from Data - Gilbert Strang",
+              "url": null
+            },
+            {
+              "title": "Linear Algebra Done Right - Sheldon Axler",
+              "url": null
+            },
+            {
+              "title": "Convex Optimization by Boyd",
+              "url": null
+            }
+          ],
+          "resources": [
+            {
+              "title": "Assignments",
+              "url": "https://github.com/gauravmeena0708/IITD-Machine-Learning/tree/main/semester1-projects"
+            }
+          ]
+        },
+        {
+          "title": "ELL880 Social Network Analysis",
+          "professor": "Prof. Sougata Mukharjea",
+          "related_courses": [
+            {
+              "title": "Mining Massive Datasets",
+              "url": "https://www.youtube.com/@miningmassivedatasets6799"
+            },
+            {
+              "title": "Machine Learning with Graphs",
+              "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn"
+            }
+          ],
+          "books": [
+            {
+              "title": "Networks, Crowds, and Markets Jon Kleinberg (For ML with Graphs)",
+              "url": null
+            }
+          ],
+          "resources": [
+            {
+              "title": "Lectures",
+              "url": "https://drive.google.com/drive/folders/1l4bj8_IxmOGqLCxChV4-6jiO1bLZHEQ8?usp=sharing"
+            },
+            {
+              "title": "Notebook 1",
+              "url": "https://colab.research.google.com/drive/1jx1sSc9NH_QJGxJq2JxNNZMg2oKJLkVh?usp=sharing"
+            },
+            {
+              "title": "Notebook 2",
+              "url": "https://colab.research.google.com/drive/1eSW6EO_cQZMkDxqI2Dxrf8nvPprsljkn?usp=sharing"
+            },
+            {
+              "title": "Assignments",
+              "url": "https://github.com/gauravmeena0708/IITD-Machine-Learning/tree/main/semester1-projects"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Semester 2",
+      "courses": [
+        {
+          "title": "ELL884 NLP",
+          "related_courses": [
+            {
+              "title": "NLP IIT KGP NPTEL",
+              "url": "https://www.youtube.com/playlist?list=PLJJzI13YAXCHxbVgiFaSI88hj-mRSoMtI"
+            },
+            {
+              "title": "CS124 - From Lang to info - jurafsky",
+              "url": "https://www.youtube.com/playlist?list=PLaZQkZp6WhWyvdiP49JG-rjyTPck_hvEu"
+            },
+            {
+              "title": "CS224 - NLP with Deep Learning - stanford",
+              "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4"
+            },
+            {
+              "title": "NLP Univ of Utah",
+              "url": "https://www.youtube.com/playlist?list=PLbuogVdPnkCrPZ4Vc-GRnk730SLhC1L43"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Lectures",
+              "url": "https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link"
+            }
+          ],
+          "website": "https://lcs2.in/nlp2402"
+        },
+        {
+          "title": "AIL721 Deep Learning",
+          "related_courses": [
+            {
+              "title": "Sohail Faizi",
+              "url": "https://www.youtube.com/playlist?list=PLHgjs9ncvHi80UCSlSvQe-TK_uOyDv_Jf"
+            },
+            {
+              "title": "Mitesh Khapra",
+              "url": "https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU"
+            },
+            {
+              "title": "Deep learning NPTEL",
+              "url": "https://www.cse.iitm.ac.in/~miteshk/CS7015_2018.html"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Lectures",
+              "url": "https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link"
+            }
+          ],
+          "website": "https://jamesarambam.me/dl"
+        },
+        {
+          "title": "COL 761 Data Mining",
+          "related_courses": [
+            {
+              "title": "Data Mining text Mining - TU Dortmun",
+              "url": "https://www.youtube.com/playlist?list=PLElvkFQko9bcZxj57xvs9cgSPvCDN5tNe"
+            },
+            {
+              "title": "Mining Massive Datasets - Stanford",
+              "url": "https://www.youtube.com/playlist?list=PLoCMsyE1cvdVnCgHk43vRy7PVTVWJ6WVR"
+            },
+            {
+              "title": "Pattern Discovery in Data Mining",
+              "url": "https://www.coursera.org/learn/data-patterns/"
+            }
+          ]
+        },
+        {
+          "title": "BML 738 Biomedical Data analysis",
+          "related_courses": [
+            {
+              "title": "Notebook LM",
+              "url": "https://notebooklm.google.com/notebook/8ea22704-a646-4b8b-97cd-51d3cec21ed4"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Lectures",
+              "url": "https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Semester 3",
+      "courses": [
+        {
+          "title": "BML 815 Deep learning for Biomedical Image Analysis",
+          "resources": [
+            {
+              "title": "Lectures",
+              "url": "https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link"
+            }
+          ],
+          "website": "https://lcs2.in/nlp2402"
+        },
+        {
+          "title": "AIL722 / AIL7022 Reinforment learning",
+          "website": "https://web.iitd.ac.in/~raunakbh/deep-rl/fall25/coursepage.html"
+        },
+        {
+          "title": "MTL766 Multivariate Stats"
+        }
+      ]
+    }
+  ],
+  "other_resources": [
+    {
+      "category": "General Courses",
+      "topics": [
+        {
+          "name": "NLP and LLM",
+          "links": [
+            {
+              "title": "Large Language Models by Prof. Tanmay Chakraborty",
+              "url": "https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-"
+            }
+          ]
+        },
+        {
+          "name": "CV and Image Processing",
+          "links": [
+            {
+              "title": "NPTEL IMAGE Processing IITG",
+              "url": "https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo"
+            },
+            {
+              "title": "Deep Learning for computer vision-Prof. Vineeth N Balasubramanian | IIT Hyderabad",
+              "url": "https://www.youtube.com/playlist?list=PLEAYkSg4uSQ0Q5Z1IYI-0g2cbD-2Rt-I6"
+            }
+          ]
+        },
+        {
+          "name": "Deep Learning",
+          "links": [
+            {
+              "title": "Mitesh Khapra's Large Language Models",
+              "url": "https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM"
+            },
+            {
+              "title": "Mitesh Khapra's Deep Learning",
+              "url": "https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Data Structures and Algorithms",
+      "content": "This section contains resources and code templates for various data structures and algorithms...",
+      "source_file": "dsa.md"
+    },
+    {
+      "category": "High Performance Computing",
+      "content": "Commands and tips for using HPC clusters.",
+      "source_file": "hpc.md"
+    }
+  ],
+  "projects": {
+    "description": "These projects are from either assignments, improvment on them or self-initiated."
+  }
+}
