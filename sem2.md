@@ -1,59 +1,11 @@
 # Semester 2
 
-<table>
-    <tbody>
-        <tr>
-            <td>Course<br/>Title</td>
-            <td>Related Courses</td>
-            <td>Books</td>
-            <td>Lectures<br/>Assignments</td>
-            <td>Website</td>
-        </tr>
-        <tr>
-            <td>ELL884 <br/> NLP</td>
-            <td>
-                <a href="https://www.youtube.com/playlist?list=PLJJzI13YAXCHxbVgiFaSI88hj-mRSoMtI">NLP IIT KGP NPTEL</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLaZQkZp6WhWyvdiP49JG-rjyTPck_hvEu">CS124 - From Lang to info - jurafsky</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4">CS224 - NLP with Deep Learning - stanford</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLbuogVdPnkCrPZ4Vc-GRnk730SLhC1L43">NLP Univ of Utah</a><br/>  
-            </td>
-            <td></td>
-            <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
-            <td><a href="https://lcs2.in/nlp2402">Website</a></td>
-        </tr>
-        <tr>
-            <td>AIL721<br/>Deep Learning</td>
-            <td>
-                <a href="https://www.youtube.com/playlist?list=PLHgjs9ncvHi80UCSlSvQe-TK_uOyDv_Jf">Sohail Faizi</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU">Mitesh Khapra</a><br/>
-                <a href="https://www.cse.iitm.ac.in/~miteshk/CS7015_2018.html">Deep learning NPTEL</a>
-            </td>
-            <td></td>
-            <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
-            <td><a href="https://jamesarambam.me/dl">Website</a></td>
-        </tr>
-        <tr>
-            <td>COL 761<br/>Data Mining</td>
-            <td>
-                <a href="https://www.youtube.com/playlist?list=PLElvkFQko9bcZxj57xvs9cgSPvCDN5tNe">Data Mining text Mining - TU Dortmun</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLoCMsyE1cvdVnCgHk43vRy7PVTVWJ6WVR">Mining Massive Datasets - Stanford</a><br/>
-                <a href="https://www.coursera.org/learn/data-patterns/">Pattern Discovery in Data Mining</a>
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>BML 738 Biomedical Data analysis</td>
-            <td>
-                <a href="https://notebooklm.google.com/notebook/8ea22704-a646-4b8b-97cd-51d3cec21ed4">Notebook LM </a>
-            </td>
-            <td></td>
-            <td><a href="https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link">Lectures</a></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
+| Course Title | Related Courses | Books | Lectures/Assignments | Website |
+| --- | --- | --- | --- | --- |
+| ELL884 NLP | [NLP IIT KGP NPTEL](https://www.youtube.com/playlist?list=PLJJzI13YAXCHxbVgiFaSI88hj-mRSoMtI) [CS124 - From Lang to info - jurafsky](https://www.youtube.com/playlist?list=PLaZQkZp6WhWyvdiP49JG-rjyTPck_hvEu) [CS224 - NLP with Deep Learning - stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4) [NLP Univ of Utah](https://www.youtube.com/playlist?list=PLbuogVdPnkCrPZ4Vc-GRnk730SLhC1L43) | | [Lectures](https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link) | [Website](https://lcs2.in/nlp2402) |
+| AIL721 Deep Learning | [Sohail Faizi](https://www.youtube.com/playlist?list=PLHgjs9ncvHi80UCSlSvQe-TK_uOyDv_Jf) [Mitesh Khapra](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU) [Deep learning NPTEL](https://www.cse.iitm.ac.in/~miteshk/CS7015_2018.html) | | [Lectures](https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link) | [Website](https://jamesarambam.me/dl) |
+| COL 761 Data Mining | [Data Mining text Mining - TU Dortmun](https://www.youtube.com/playlist?list=PLElvkFQko9bcZxj57xvs9cgSPvCDN5tNe) [Mining Massive Datasets - Stanford](https://www.youtube.com/playlist?list=PLoCMsyE1cvdVnCgHk43vRy7PVTVWJ6WVR) [Pattern Discovery in Data Mining](https://www.coursera.org/learn/data-patterns/) | | | |
+| BML 738 Biomedical Data analysis | [Notebook LM](https://notebooklm.google.com/notebook/8ea22704-a646-4b8b-97cd-51d3cec21ed4) | | [Lectures](https://drive.google.com/drive/folders/1Z-yMfAwIcR9jh_ewH-ZHMQYZ-WSlfL5W?usp=drive_link) | |
 
 ## Deep Learning
 Teaching computers how to learn a task directly from raw data

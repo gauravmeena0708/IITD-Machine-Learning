@@ -1,70 +1,16 @@
 ## Courses
 
-<table>
-    <tbody>
-        <tr>
-            <td>Topic</td>
-            <td>Links</td>
-        </tr>
-        <tr>
-            <td>Courses about NLP and LLM</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-">Large Language Models by Prof. Tanmay Chakraborty</a></td>
-        </tr>
-        <tr>
-            <td>Courses about CV and Image Processing</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo">NPTEL IMAGE Processing IITG</a><br/>
-            <a href="https://www.youtube.com/playlist?list=PLEAYkSg4uSQ0Q5Z1IYI-0g2cbD-2Rt-I6">Deep Learning for computer vision-Prof. Vineeth N Balasubramanian   |   IIT Hyderabad</a></td>
-        </tr>
-        <tr>
-            <td>Courses about Deep Learning</td>
-            <td>
-                <a href="https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM">Mitesh Khapra's Large Language Models</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU">Mitesh Khapra's Deep Learning</><br/>
-                <a href="https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU">Mitesh Khapra's NLP with DL</><br/>
-                <a href="https://www.youtube.com/playlist?list=PLGP2q2bIgaNy9_tR-a0fElXJ1Ou-iB2IU">Mitesh Khapra's RNN with DL</><br/>
-                <a href="https://www.youtube.com/playlist?list=PLgF7i4LH-YxacgG0OPmTYe1UUQAvcw9Ke">Yenn Lecunns DL</><br/>
-                <a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv">Stanfords DL</><br/>
-                <a href="https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx">Learning about machine and deep learning</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn">100 days of Deep Learning - Campus X</a>
-            </td>
-        </tr>
-        <tr>
-            <td>Courses about Reinforcement Learning</td>
-            <td>
-                <a href="https://www.youtube.com/@reinforcementlearning1077">Reinforcement Learning - Balaraman Ravindran</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX">Reinforcement Learning-Stanford</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ">RL by David Silver</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH">Deep RL UC Berkley</a><br/>
-            </td>
-        </tr>
-         <tr>
-            <td>Courses about Graphs</td>
-            <td>
-                <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp">Machine Learning with Graphs</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLn2-dEmQeTfQ8YVuHBOvAhUlnIPYxkeu3">Geometric Deep Learning 1</a><br/>
-                <a href="https://www.youtube.com/playlist?list=PLn2-dEmQeTfSLXW8yXP4q_Ii58wFdxb3C">Geometric Deep Learning 2</a><br/>
-            </td>
-        </tr>
-        <tr>
-            <td>Courses about General AI</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL">Berkley AI</a></td>
-        </tr>
-        <tr>
-            <td>Information theory</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6">Information Theory, Pattern Recognition</a></td>
-        </tr>
-        <tr>
-            <td>
-                Statistics
-            </td>
-            <td><a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9">Statquest Statistics</a></td>
-        </tr>
-        <tr>
-            <td>Machine Learning & Advanced ML</td>
-            <td><a href="https://www.youtube.com/playlist?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR">Advanced ML</a></td>
-        </tr>
-    </tbody>
-</table>
+| Topic | Links |
+| --- | --- |
+| Courses about NLP and LLM | [Large Language Models by Prof. Tanmay Chakraborty](https://www.youtube.com/playlist?list=PLqGkIjcOyrGnjyBHl4GE2S9kX47X96FH-) |
+| Courses about CV and Image Processing | [NPTEL IMAGE Processing IITG](https://www.youtube.com/playlist?list=PLwdnzlV3ogoVsma5GmBSsgJM6gHv1QoAo) [Deep Learning for computer vision-Prof. Vineeth N Balasubramanian | IIT Hyderabad](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ0Q5Z1IYI-0g2cbD-2Rt-I6) |
+| Courses about Deep Learning | [Mitesh Khapra's Large Language Models](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM) [Mitesh Khapra's Deep Learning](https://www.youtube.com/playlist?list=PLEAYkSg4uSQ1r-2XrJ_GBzzS6I-f8yfRU) [Mitesh Khapra's NLP with DL](https://www.youtube.com/playlist?list=PLrLxpnf4DCA_WmcbedFzwMKfG-OznC8WU) [Mitesh Khapra's RNN with DL](https://www.youtube.com/playlist?list=PLGP2q2bIgaNy9_tR-a0fElXJ1Ou-iB2IU) [Yenn Lecunns DL](https://www.youtube.com/playlist?list=PLgF7i4LH-YxacgG0OPmTYe1UUQAvcw9Ke) [Stanfords DL](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) [Learning about machine and deep learning](https://www.youtube.com/playlist?list=PLB2SCq-tZtVl91qSPm0EwqrJqhYMCeoAx) [100 days of Deep Learning - Campus X](https://www.youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn) |
+| Courses about Reinforcement Learning | [Reinforcement Learning - Balaraman Ravindran](https://www.youtube.com/@reinforcementlearning1077) [Reinforcement Learning-Stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX) [RL by David Silver](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) [Deep RL UC Berkley](https://www.youtube.com/playlist?list=PL_iWQOsE6TfXxKgI1GgyV1B_Xa0DxE5eH) |
+| Courses about Graphs | [Machine Learning with Graphs](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp) [Geometric Deep Learning 1](https://www.youtube.com/playlist?list=PLn2-dEmQeTfQ8YVuHBOvAhUlnIPYxkeu3) [Geometric Deep Learning 2](https://www.youtube.com/playlist?list=PLn2-dEmQeTfSLXW8yXP4q_Ii58wFdxb3C) |
+| Courses about General AI | [Berkley AI](https://www.youtube.com/playlist?list=PLjsx92GvetlT6aVqJodhOdMZ7M_IkJsmL) |
+| Information theory | [Information Theory, Pattern Recognition](https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6) |
+| Statistics | [Statquest Statistics](https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9) |
+| Machine Learning & Advanced ML | [Advanced ML](https://www.youtube.com/playlist?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR) |
                     
 <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR">Topics in Math with application in Finance</a>
 
@@ -142,21 +88,3 @@
 
 ## 11 and 12th
 1. [https://iitpal.iitd.ac.in/](https://iitpal.iitd.ac.in/)
-
-<!--
-<tr>
-            <td>2</td>
-            <td><table>
-    <tbody>
-        <tr>
-            <td><ul><li>list item 1</li><li>list item 2</li></ul></td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-        </tr>
-    </tbody>
-</table></td>
-        </tr>
--->
