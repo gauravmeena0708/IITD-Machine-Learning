@@ -46,7 +46,3 @@
         </tr>
     </tbody>
 </table>
-
-
-6. [Data Mining Adam Pareto](https://www.youtube.com/playlist?list=PLqvtGg6xpwt-bTuC88UqtjDOjOSDieI_I)
-7. [CS246 Mining Massive Datasets](https://www.youtube.com/playlist?list=PLoCMsyE1cvdVnCgHk43vRy7PVTVWJ6WVR)
