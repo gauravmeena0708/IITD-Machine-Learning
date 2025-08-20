@@ -2,7 +2,7 @@
 
 This guide provides an overview of essential tools, platforms, and resources for students starting in the AI department.
 Computational Resources
-1. Google Colab (colab.google.com)
+1. [Google Colab](https://colab.google.com)
 
 Google Colab is a free cloud-based Jupyter notebook environment that provides access to GPUs.
 
@@ -24,7 +24,7 @@ Google Colab is a free cloud-based Jupyter notebook environment that provides ac
 
         Mobile Verification: May require mobile verification to access resources.
 
-2. Kaggle (kaggle.com)
+2. [Kaggle](kaggle.com)
 
 Kaggle is a platform for data science competitions, datasets, and notebooks.
 
@@ -44,7 +44,7 @@ Kaggle is a platform for data science competitions, datasets, and notebooks.
 
         Trick for File Handling: To work around the editing limitation, you can store file content as a string within a code cell and then write that string to a file programmatically during runtime.
 
-3. High-Performance Computing (HPC) & Baadal (IIT Delhi)
+3. High-Performance Computing ([HPC](https://github.com/kanha95/HPC-IIT-Delhi)) & [Baadal](https://baadal.iitd.ac.in/baadal) (IIT Delhi)
 
 For more demanding computational needs, IIT Delhi provides access to its own HPC resources.
 
@@ -52,16 +52,16 @@ For more demanding computational needs, IIT Delhi provides access to its own HPC
 - Baadal: IITD's private cloud service, which can be used for various computing tasks.
 
 Essential AI & Developer Tools
-1. Experiment Tracking: Wandb (wandb.ai)
+1. Experiment Tracking: [Wandb](wandb.ai)
 
 Weights & Biases (Wandb) is a tool for tracking your machine learning experiments. It helps you log metrics, visualize results, and compare different runs, which is crucial for research and complex projects.
 2. AI-Powered Code Editors
 
-  - Cursor (cursor.sh): An AI-first code editor designed for pair-programming with AI. It can help you write, debug, and refactor code much faster.
-  - VSCode (code.visualstudio.com): The standard for code editors, with powerful extensions like GitHub Copilot for AI-assisted coding.
-  - Jules (Jules.google.com): Online AI prompt based coding agent.
-  - gemini-cli (github.com/google-gemini/gemini-cli) : Command prompt based coding agent
-  - aistudio.google.com: Free experimental models by google. 
+  - [Cursor](cursor.sh): An AI-first code editor designed for pair-programming with AI. It can help you write, debug, and refactor code much faster.
+  - [VSCode](code.visualstudio.com): The standard for code editors, with powerful extensions like GitHub Copilot for AI-assisted coding.
+  - [Jules](Jules.google.com): Online AI prompt based coding agent.
+  - [gemini-cli](github.com/google-gemini/gemini-cli) : Command prompt based coding agent
+  - [AI Studio](aistudio.google.com): Free experimental models by google. 
 
 3. Generative AI & LLM Assistants
 
@@ -79,9 +79,9 @@ These tools are invaluable for research, writing, and coding.
 
 4. Productivity & Note-Taking
 
-    NotebookLM: A research assistant from Google that can help you summarize, analyze, and generate insights from your uploaded documents (PDFs, text files, etc.).
+    [NotebookLM](notbooklm.google.com): A research assistant from Google that can help you summarize, analyze, and generate insights from your uploaded documents (PDFs, text files, etc.).
 
-    AI Studio: A platform to explore and build with Google's latest generative AI models.
+    [AI Studio](aistudio.google.com): A platform to explore and build with Google's latest generative AI models.
 
 IITD Specific Resources & Tips
 1. Important GitHub Repositories
@@ -98,8 +98,8 @@ IITD Specific Resources & Tips
 
 3. Student Perks & General Advice
 
-    Free Software: As a student, you often get free access to Microsoft Office, Adobe products, and more. Check the university's software portal.
-
-    Course Planning: Look into "Reading courses of study" to understand course requirements. Create a bucket list of courses you want to take, balancing easier and more challenging ones each semester.
-
-    Campus Life: Don't forget to take breaks and enjoy campus life! Attend STIC and house dinners.
+   - Free Software: As a student, you often get free access to Microsoft Office, Adobe products, Swiggy, Github Education and more. T
+   - Students get flat 10% discount in *Secular Canteen* near JNU GATE after showing ID card
+   - Hospital across the city give IIT students discount (ask whenever you are visiting)
+   - Course Planning: Look into "Reading courses of study" to understand course requirements. Create a bucket list of courses you want to take, balancing easier and more challenging ones each semester.
+   - Campus Life: Don't forget to take breaks and enjoy campus life! Attend STIC and house dinners.
