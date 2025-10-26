@@ -3,38 +3,14 @@
 const canvas = document.getElementById("gameCanvas");
 const context = canvas.getContext("2d");
 const sizeSelect = document.getElementById("sizeSelect");
-const modeSelect = document.getElementById("modeSelect");
-const tutorialControls = document.getElementById("tutorialControls");
-const tutorialSelect = document.getElementById("tutorialSelect");
-const tutorialObjectiveEl = document.getElementById("tutorialObjective");
 const player2TypeSelect = document.getElementById("player2Type");
 const difficultySelect = document.getElementById("difficultySelect");
 const startGameBtn = document.getElementById("startGameBtn");
-const hintBtn = document.getElementById("hintBtn");
-const clearHintBtn = document.getElementById("clearHintBtn");
-const helperMessageEl = document.getElementById("helperMessage");
 const currentTurnEl = document.getElementById("currentTurn");
 const winnerEl = document.getElementById("winner");
 const player1TimeEl = document.getElementById("player1Time");
 const player2TimeEl = document.getElementById("player2Time");
-const analysisToggle = document.getElementById("analysisToggle");
-const analysisSummary = document.getElementById("analysisSummary");
 const gameTable = document.getElementById("gameTable");
-const moveHistoryList = document.getElementById("moveHistory");
-const opponentControls = document.getElementById("opponentControls");
-const difficultyControls = document.getElementById("difficultyControls");
-const statsRoundsEl = document.getElementById("statsRounds");
-const statsP1WinsEl = document.getElementById("statsP1Wins");
-const statsP2WinsEl = document.getElementById("statsP2Wins");
-const statsTiesEl = document.getElementById("statsTies");
-const statsFastestEl = document.getElementById("statsFastest");
-const resetProgressBtn = document.getElementById("resetProgressBtn");
-const achievementBadges = {
-  bridge: document.querySelector('[data-achievement="bridge"]'),
-  fork: document.querySelector('[data-achievement="fork"]'),
-  ring: document.querySelector('[data-achievement="ring"]'),
-  streak: document.querySelector('[data-achievement="streak"]'),
-};
 
 Object.assign(window, {
   getValidActions: Havannah.getValidActions,
@@ -69,224 +45,44 @@ let gameOver = false;
 let aiPlayer2 = null;
 let isPlayer2AI = false;
 let particles = [];
-let hintMove = null;
-let lastMove = null;
-let moveHistory = [];
-let turnCounter = 0;
-let consecutiveWins = 0;
-let currentMode = modeSelect.value || "standard";
-let tutorialScenario = null;
-let analysisEnabled = false;
-let analysisData = null;
-
-const stats = {
-  rounds: 0,
-  p1Wins: 0,
-  p2Wins: 0,
-  ties: 0,
-  fastest: null,
-};
-
-const achievements = {
-  bridge: false,
-  fork: false,
-  ring: false,
-  streak: false,
-};
-
-const STORAGE_KEY = "havannah_webapp2_progress_v1";
-
-const TUTORIAL_SCENARIOS = {
-  "bridge-basics": {
-    id: "bridge-basics",
-    name: "Bridge Basics",
-    layers: 4,
-    objective:
-      "Complete the bridge by linking the two highlighted corners on the left spine. You only need one more stone!",
-    helperText:
-      "Corners count as part of the bridge. Look for a single move that creates an unbroken path between them.",
-    placements: {
-      1: [
-        [0, 0],
-        [1, 0],
-        [3, 0],
-      ],
-      2: [
-        [1, 2],
-        [2, 3],
-      ],
-    },
-    hint: [2, 0],
-    startingPlayer: 1,
-  },
-  "fork-basics": {
-    id: "fork-basics",
-    name: "Fork Foundations",
-    layers: 4,
-    objective:
-      "Extend your group to reach a third edge. A fork is any connection to three distinct edges.",
-    helperText:
-      "You already touch the northwest and west edges. Use the top row to branch out toward a new edge.",
-    placements: {
-      1: [
-        [0, 1],
-        [0, 2],
-        [0, 3],
-        [1, 0],
-        [1, 1],
-      ],
-      2: [
-        [2, 3],
-        [2, 4],
-      ],
-    },
-    hint: [0, 4],
-    startingPlayer: 1,
-  },
-  "ring-setup": {
-    id: "ring-setup",
-    name: "Ring Awareness",
-    layers: 4,
-    objective:
-      "Close the loop to trap the red stone. Rings enclose at least one cell (even if it belongs to the opponent).",
-    helperText:
-      "Visualise a loop of your stones around the red stone. Only one gap remains open.",
-    placements: {
-      1: [
-        [1, 2],
-        [1, 4],
-        [2, 2],
-        [2, 5],
-        [3, 3],
-        [3, 4],
-      ],
-      2: [
-        [2, 3],
-      ],
-    },
-    hint: [1, 3],
-    startingPlayer: 1,
-  },
-};
-
-const EDGE_NAMES = [
-  "West",
-  "North-West",
-  "North-East",
-  "East",
-  "South-East",
-  "South-West",
-];
-
-const CORNER_NAMES = [
-  "Top-left",
-  "Top",
-  "Top-right",
-  "Right",
-  "Bottom",
-  "Left",
-];
 
 startGameBtn.addEventListener("click", startGame);
 canvas.addEventListener("click", handleCanvasClick);
-hintBtn.addEventListener("click", offerHint);
-clearHintBtn.addEventListener("click", () => clearHint());
-player2TypeSelect.addEventListener("change", () => {
-  syncDifficultyAvailability();
-  setHelperMessage("");
-});
-resetProgressBtn.addEventListener("click", resetProgress);
-modeSelect.addEventListener("change", () => {
-  updateModeUI();
-  startGame();
-});
-tutorialSelect.addEventListener("change", () => {
-  if (modeSelect.value === "tutorial") {
-    startGame();
-  }
-});
-analysisToggle.addEventListener("change", () => {
-  analysisEnabled = analysisToggle.checked;
-  resetAnalysis();
-  if (analysisEnabled) {
-    setHelperMessage(
-      currentMode === "tutorial" && tutorialScenario
-        ? (tutorialScenario.helperText || tutorialScenario.objective || "") +
-            " — analysis overlay active."
-        : "Analysis mode on. Click any stone to inspect its connected group."
-    );
-  } else if (currentMode === "tutorial" && tutorialScenario) {
-    setHelperMessage(
-      tutorialScenario.helperText || tutorialScenario.objective || ""
-    );
-  } else {
-    setHelperMessage("");
-  }
-  drawBoard();
-  renderGameTable(board);
-});
-
-loadPersistentProgress();
-renderStats();
-renderAchievements();
-updateModeUI();
 
 function startGame() {
-  const requestedLayers = parseInt(sizeSelect.value, 10) || layers;
-  currentMode = modeSelect.value;
-  const isTutorial = currentMode === "tutorial";
-  tutorialScenario = isTutorial
-    ? TUTORIAL_SCENARIOS[tutorialSelect.value] ||
-      TUTORIAL_SCENARIOS["bridge-basics"]
-    : null;
-  if (isTutorial && tutorialScenario) {
-    layers = tutorialScenario.layers;
-  } else {
-    layers = requestedLayers;
-  }
+  layers = parseInt(sizeSelect.value, 10) || layers;
   adjustCanvasSize(layers);
   board = createInitialBoard(layers);
   currentPlayer = 0;
-  playerTime = isTutorial ? [Infinity, Infinity] : [300, 300];
+  playerTime = [300, 300];
   gameOver = false;
   particles = [];
-  hintMove = null;
-  lastMove = null;
-  moveHistory = [];
-  turnCounter = 0;
-  resetAnalysis();
   winnerEl.textContent = "";
   canvas.style.border = "2px solid #000";
-  setHelperMessage("");
 
-  renderMoveHistory();
-  renderStats();
-  renderAchievements();
   updateTimerLabels();
   updateCurrentTurn();
   drawBoard();
   renderGameTable(board);
 
   if (timerInterval) clearInterval(timerInterval);
-  timerInterval = isTutorial ? null : setInterval(updateTimer, 1000);
+  timerInterval = setInterval(updateTimer, 1000);
 
-  syncDifficultyAvailability();
-  if (isTutorial) {
-    isPlayer2AI = false;
+  const selection = player2TypeSelect.value;
+  if (selection === "human") {
     aiPlayer2 = null;
-    currentPlayer = (tutorialScenario.startingPlayer || 1) - 1;
-    applyTutorialScenario(tutorialScenario);
-  } else {
-    const opponent = player2TypeSelect.value;
-    isPlayer2AI = opponent === "computer";
-    aiPlayer2 = isPlayer2AI
-      ? createAIForDifficulty(2, difficultySelect.value)
-      : null;
-    setHelperMessage("");
-    tutorialObjectiveEl.textContent = "";
+    isPlayer2AI = false;
+  } else if (selection === "computer") {
+    isPlayer2AI = true;
+    const difficulty = difficultySelect.value;
+    if (difficulty === "easy") {
+      aiPlayer2 = new RandomAI(2);
+    } else if (difficulty === "medium") {
+      aiPlayer2 = new AIPlayer(2);
+    } else {
+      aiPlayer2 = new AIPlayer2(2);
+    }
   }
-
-  updateControls();
 }
 
 function adjustCanvasSize(layerCount) {
@@ -368,64 +164,7 @@ function drawHexagon(coords, value, row, col) {
   context.stroke();
 
   const centroid = calculateCentroid(coords);
-  const isHint =
-    hintMove && hintMove[0] === row && hintMove[1] === col;
-  const isLast =
-    lastMove && lastMove[0] === row && lastMove[1] === col;
-  const key = `${row},${col}`;
-
-  if (isLast) {
-    context.save();
-    context.lineWidth = 4;
-    context.strokeStyle = "rgba(34,197,94,0.85)";
-    context.stroke();
-    context.restore();
-  }
-
-  if (isHint) {
-    context.save();
-    context.lineWidth = 4;
-    context.strokeStyle = "rgba(59,130,246,0.9)";
-    context.stroke();
-    context.restore();
-  }
-
-  if (
-    analysisData &&
-    analysisData.visited &&
-    analysisData.visited.has(key)
-  ) {
-    context.save();
-    context.lineWidth = analysisData.originKey === key ? 4 : 3;
-    context.strokeStyle =
-      analysisData.originKey === key
-        ? "rgba(99,102,241,0.85)"
-        : "rgba(59,130,246,0.55)";
-    context.stroke();
-    context.restore();
-  }
-
-  if (
-    analysisData &&
-    analysisData.cornerKeys &&
-    analysisData.cornerKeys.has(key)
-  ) {
-    context.save();
-    context.beginPath();
-    context.arc(
-      centroid.x,
-      centroid.y,
-      Math.max(6, hexSize * 0.18),
-      0,
-      Math.PI * 2
-    );
-    context.lineWidth = 2.5;
-    context.strokeStyle = "rgba(14,116,144,0.9)";
-    context.stroke();
-    context.restore();
-  }
-
-  context.fillStyle = value === 3 ? "#f8fafc" : "#111827";
+  context.fillStyle = "#111827";
   context.font = `${Math.max(hexSize * 0.35, 10)}px Arial`;
   context.textAlign = "center";
   context.textBaseline = "middle";
@@ -451,20 +190,7 @@ function handleCanvasClick(event) {
   const y = event.clientY - rect.top;
   const [row, col] = getHexagonAtCoords(x, y);
   if (row === null || col === null) return;
-  const cellValue = board[row][col];
-
-  if (
-    analysisEnabled &&
-    cellValue !== 0 &&
-    cellValue !== 3
-  ) {
-    computeAnalysis(row, col);
-    return;
-  }
-
-  if (cellValue !== 0) return;
-
-  resetAnalysis();
+  if (board[row][col] !== 0) return;
 
   makeMove(row, col);
 }
@@ -499,60 +225,32 @@ function isPointInHexagon(x, y, coords) {
 }
 
 function makeMove(row, col) {
-  clearHint({ silent: true, redraw: false });
   board[row][col] = currentPlayer + 1;
-  lastMove = [row, col];
-  turnCounter += 1;
-
-  const moveRecord = { player: currentPlayer + 1, row, col };
-  moveHistory.push(moveRecord);
-
   drawBoard();
   renderGameTable(board);
 
   const { win, way } = Havannah.checkWin(board, [row, col], currentPlayer + 1);
   if (win) {
-    moveRecord.result = way || "structure";
-    renderMoveHistory();
     endGame(currentPlayer + 1, way);
     return;
   }
 
   if (Havannah.getValidActions(board).length === 0) {
-    renderMoveHistory();
     endGame(null, "tie");
     return;
   }
 
-  if (currentMode === "tutorial") {
-    board[row][col] = 0;
-    moveHistory.pop();
-    turnCounter = Math.max(0, turnCounter - 1);
-    drawBoard();
-    renderGameTable(board);
-    renderMoveHistory();
-    updateCurrentTurn();
-    setHelperMessage(
-      "Not quite! Check the lesson objective and try again from the original position."
-    );
-    return;
-  }
-
-  renderMoveHistory();
   currentPlayer = currentPlayer === 0 ? 1 : 0;
   updateCurrentTurn();
-
   if (!gameOver && currentPlayer === 1 && isPlayer2AI) {
     handleAITurn();
   }
 }
 
 function handleAITurn() {
-  updateControls();
   setTimeout(() => {
     if (!aiPlayer2 || gameOver) return;
-    const boardClone = board.map((row) => row.slice());
-    const move = aiPlayer2.getMove(boardClone);
+    const move = aiPlayer2.getMove(board);
     if (!move) {
       endGame(null, "tie");
       return;
@@ -562,13 +260,11 @@ function handleAITurn() {
 }
 
 function updateTimer() {
-  if (currentMode === "tutorial") return;
   if (gameOver) return;
   playerTime[currentPlayer] -= 1;
   if (playerTime[currentPlayer] <= 0) {
     playerTime[currentPlayer] = 0;
-    const winner = currentPlayer === 0 ? 2 : 1;
-    endGame(winner, "timeout");
+    endGame(currentPlayer === 0 ? 2 : 1, "timeout");
     return;
   }
   updateTimerLabels();
@@ -576,9 +272,6 @@ function updateTimer() {
 
 function updateTimerLabels() {
   const [p1, p2] = playerTime.map((time) => {
-    if (!Number.isFinite(time)) {
-      return "∞";
-    }
     const minutes = Math.floor(time / 60);
     const seconds = time % 60;
     return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
@@ -590,7 +283,6 @@ function updateTimerLabels() {
 function updateCurrentTurn() {
   if (gameOver) return;
   currentTurnEl.textContent = `Current Turn: Player ${currentPlayer + 1}`;
-  updateControls();
 }
 
 function endGame(winner, structure) {
@@ -600,47 +292,27 @@ function endGame(winner, structure) {
     timerInterval = null;
   }
 
-  recordOutcome({ winner, structure });
-
   let message;
   if (winner === 1 || winner === 2) {
     const color = winner === 1 ? "gold" : "#ef4444";
     canvas.style.border = `5px solid ${color}`;
-    message = `Player ${winner} wins${structure && structure !== "timeout" ? ` by ${structure}` : ""}!`;
-    const lastEntry = moveHistory[moveHistory.length - 1];
-    if (lastEntry && !lastEntry.result) {
-      lastEntry.result = structure === "timeout" ? "timeout" : "win";
-    }
+    message = `Player ${winner} wins${structure ? ` by ${structure}` : ""}!`;
   } else {
     canvas.style.border = "5px solid #334155";
-    message = structure === "tie" ? "It's a tie!" : "Round ended.";
+    message = "It's a tie!";
   }
-
-  if (structure === "timeout") {
-    moveHistory.push({
-      summary: `Player ${winner === 1 ? 2 : 1} ran out of time.`,
-    });
-  } else if (!winner && structure === "tie") {
-    moveHistory.push({
-      summary: "Board locked up – declared a tie.",
-    });
-  }
-
-  renderMoveHistory();
 
   currentTurnEl.textContent = message;
   winnerEl.textContent = message;
-  renderMoveHistory();
-  updateControls();
   triggerCelebration();
   alert(message);
 }
 
 function renderGameTable(currentBoard) {
   gameTable.innerHTML = "";
-  currentBoard.forEach((row, rowIdx) => {
+  currentBoard.forEach((row) => {
     const tr = document.createElement("tr");
-    row.forEach((cell, colIdx) => {
+    row.forEach((cell) => {
       const td = document.createElement("td");
       if (cell === 1) {
         td.textContent = "Y";
@@ -651,26 +323,6 @@ function renderGameTable(currentBoard) {
       } else if (cell === 3) {
         td.textContent = "X";
         td.style.backgroundColor = "#cbd5f5";
-      } else {
-        td.textContent = "";
-        td.style.backgroundColor = "";
-      }
-      if (lastMove && lastMove[0] === rowIdx && lastMove[1] === colIdx) {
-        td.style.outline = "3px solid rgba(34,197,94,0.85)";
-      } else if (analysisData && analysisData.visited && analysisData.visited.has(`${rowIdx},${colIdx}`)) {
-        td.style.outline =
-          analysisData.originKey === `${rowIdx},${colIdx}`
-            ? "3px solid rgba(99,102,241,0.8)"
-            : "2px solid rgba(59,130,246,0.5)";
-      }
-      if (
-        analysisData &&
-        analysisData.cornerKeys &&
-        analysisData.cornerKeys.has(`${rowIdx},${colIdx}`)
-      ) {
-        td.style.boxShadow = "inset 0 0 0 3px rgba(14,116,144,0.6)";
-      } else {
-        td.style.boxShadow = "";
       }
       tr.appendChild(td);
     });
@@ -718,390 +370,6 @@ function animateParticles() {
   if (particles.length === 0) return;
   drawBoard();
   requestAnimationFrame(animateParticles);
-}
-
-function offerHint() {
-  if (gameOver) {
-    setHelperMessage("Game over. Start a new round for more hints.");
-    return;
-  }
-  const isTutorial = currentMode === "tutorial";
-  if (!isTutorial && currentPlayer !== 0) {
-    setHelperMessage("Wait for your turn before asking for a hint.");
-    return;
-  }
-
-  let suggestion = null;
-  if (isTutorial && tutorialScenario) {
-    if (tutorialScenario.hint) {
-      suggestion = tutorialScenario.hint.slice();
-    } else {
-      const advisor = createAIForDifficulty(1, "medium");
-      const boardClone = board.map((row) => row.slice());
-      suggestion = advisor.getMove(boardClone);
-    }
-  } else {
-    const advisor = createAIForDifficulty(
-      1,
-      difficultySelect.value === "easy" ? "medium" : difficultySelect.value
-    );
-    const boardClone = board.map((row) => row.slice());
-    suggestion = advisor.getMove(boardClone);
-  }
-
-  if (!suggestion) {
-    setHelperMessage("No hint available – board might be full.");
-    return;
-  }
-
-  hintMove = suggestion;
-  drawBoard();
-  const message = isTutorial
-    ? `Lesson hint: place at (${suggestion[0]}, ${suggestion[1]}).`
-    : `Hint: try placing at (${suggestion[0]}, ${suggestion[1]}).`;
-  setHelperMessage(message);
-  updateControls();
-}
-
-function createAIForDifficulty(playerNumber, difficulty) {
-  if (difficulty === "easy") {
-    return new RandomAI(playerNumber);
-  }
-  if (difficulty === "hard") {
-    return new AIPlayer2(playerNumber, 260);
-  }
-  return new AIPlayer(playerNumber, 70);
-}
-
-function clearHint(options = {}) {
-  const { silent = false, redraw = true } = options;
-  if (!hintMove && silent) {
-    return;
-  }
-  hintMove = null;
-  if (!silent) {
-    if (currentMode === "tutorial" && tutorialScenario) {
-      setHelperMessage(
-        tutorialScenario.helperText || tutorialScenario.objective || ""
-      );
-    } else {
-      setHelperMessage("");
-    }
-  }
-  if (redraw) {
-    drawBoard();
-  }
-  updateControls();
-}
-
-function updateControls() {
-  const isTutorial = currentMode === "tutorial";
-  const isHumanTurn = !gameOver && currentPlayer === 0;
-  hintBtn.disabled = !isHumanTurn && !isTutorial;
-  clearHintBtn.disabled = !hintMove;
-  player2TypeSelect.disabled = isTutorial;
-  difficultySelect.disabled =
-    isTutorial || player2TypeSelect.value === "human";
-}
-
-function syncDifficultyAvailability() {
-  if (modeSelect.value === "tutorial") {
-    difficultySelect.disabled = true;
-    return;
-  }
-  difficultySelect.disabled = player2TypeSelect.value === "human";
-}
-
-function setHelperMessage(message) {
-  helperMessageEl.textContent = message;
-}
-
-function updateModeUI() {
-  const isTutorial = modeSelect.value === "tutorial";
-  if (tutorialControls) {
-    tutorialControls.style.display = isTutorial ? "block" : "none";
-  }
-  if (opponentControls) {
-    opponentControls.style.display = isTutorial ? "none" : "block";
-  }
-  if (difficultyControls) {
-    difficultyControls.style.display = isTutorial ? "none" : "block";
-  }
-
-  hintBtn.textContent = isTutorial
-    ? "Show Lesson Hint"
-    : "Hint For Player 1";
-
-  if (!isTutorial) {
-    tutorialObjectiveEl.textContent = "";
-  }
-}
-
-function recordOutcome({ winner, structure }) {
-  if (currentMode === "tutorial") return;
-  if (turnCounter === 0) return;
-
-  stats.rounds += 1;
-
-  if (winner === 1) {
-    stats.p1Wins += 1;
-    consecutiveWins += 1;
-  } else {
-    consecutiveWins = 0;
-  }
-
-  if (winner === 2) {
-    stats.p2Wins += 1;
-  }
-
-  if (!winner) {
-    stats.ties += 1;
-  }
-
-  if (
-    winner === 1 &&
-    structure &&
-    ["bridge", "fork", "ring"].includes(structure)
-  ) {
-    achievements[structure] = true;
-  }
-
-  if (winner === 1 && consecutiveWins >= 3) {
-    achievements.streak = true;
-  }
-
-  if (winner && structure !== "timeout") {
-    if (!stats.fastest || turnCounter < stats.fastest.turns) {
-      stats.fastest = {
-        player: winner,
-        structure: structure || "standard",
-        turns: turnCounter,
-      };
-    }
-  }
-
-  renderStats();
-  renderAchievements();
-  savePersistentProgress();
-}
-
-function formatStructureName(structure) {
-  if (!structure || structure === "standard") return "Standard";
-  return structure
-    .split("-")
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(" ");
-}
-
-function renderStats() {
-  statsRoundsEl.textContent = stats.rounds;
-  statsP1WinsEl.textContent = stats.p1Wins;
-  statsP2WinsEl.textContent = stats.p2Wins;
-  statsTiesEl.textContent = stats.ties;
-
-  if (stats.fastest) {
-    const { player, structure, turns } = stats.fastest;
-    statsFastestEl.textContent = `P${player} • ${turns} moves • ${formatStructureName(
-      structure
-    )}`;
-  } else {
-    statsFastestEl.textContent = "—";
-  }
-}
-
-function renderAchievements() {
-  Object.entries(achievementBadges).forEach(([key, badge]) => {
-    if (!badge) return;
-    if (achievements[key]) {
-      badge.textContent = "Unlocked";
-      badge.classList.remove("bg-secondary", "text-dark");
-      badge.classList.add("bg-success", "text-white");
-    } else {
-      badge.textContent = "Locked";
-      badge.classList.remove("bg-success", "text-white");
-      badge.classList.add("bg-secondary", "text-dark");
-    }
-  });
-}
-
-function renderMoveHistory() {
-  moveHistoryList.innerHTML = "";
-  moveHistory.forEach((entry) => {
-    const li = document.createElement("li");
-    li.className = "list-group-item d-flex justify-content-between align-items-center";
-
-    if (entry.summary) {
-      li.textContent = entry.summary;
-    } else {
-      const coord = `(${entry.row}, ${entry.col})`;
-      const text = `Player ${entry.player} → ${coord}`;
-      li.textContent = text;
-      if (entry.result) {
-        const badge = document.createElement("span");
-        badge.className = "badge bg-primary rounded-pill";
-        badge.textContent = entry.result;
-        li.appendChild(badge);
-      }
-    }
-
-    moveHistoryList.appendChild(li);
-  });
-}
-
-function resetAnalysis() {
-  analysisData = null;
-  if (analysisSummary) {
-    analysisSummary.style.display = "none";
-    analysisSummary.textContent = "";
-  }
-}
-
-function computeAnalysis(row, col) {
-  const player = board[row][col];
-  if (player !== 1 && player !== 2) return;
-
-  const dim = board.length;
-  const mask = board.map((r) => r.map((cell) => cell === player));
-  const visitedSet = Havannah.bfsReachable(mask, [row, col]);
-  const visited =
-    visitedSet instanceof Set ? visitedSet : new Set(visitedSet);
-
-  const cornerCoords = Havannah.getAllCorners(dim);
-  const cornerKeys = cornerCoords.map(([x, y]) => `${x},${y}`);
-  const touchedCorners = [];
-  cornerKeys.forEach((key, idx) => {
-    if (visited.has(key)) {
-      touchedCorners.push({
-        key,
-        name: CORNER_NAMES[idx] || `Corner ${idx + 1}`,
-      });
-    }
-  });
-
-  const edges = Havannah.getAllEdges(dim);
-  const touchedEdges = [];
-  edges.forEach((edgeCoords, idx) => {
-    if (
-      edgeCoords.some(([x, y]) => visited.has(`${x},${y}`))
-    ) {
-      touchedEdges.push({
-        index: idx,
-        name: EDGE_NAMES[idx] || `Edge ${idx + 1}`,
-      });
-    }
-  });
-
-  const originKey = `${row},${col}`;
-  analysisData = {
-    player,
-    origin: [row, col],
-    visited,
-    originKey,
-    cornerKeys: new Set(touchedCorners.map((corner) => corner.key)),
-    touchedCorners,
-    touchedEdges,
-  };
-
-  if (analysisSummary) {
-    const edgeLabel =
-      touchedEdges.length > 0
-        ? touchedEdges.map((edge) => edge.name).join(", ")
-        : "None";
-    const cornerLabel =
-      touchedCorners.length > 0
-        ? touchedCorners.map((corner) => corner.name).join(", ")
-        : "None";
-    const notes = [];
-    if (touchedEdges.length >= 3) {
-      notes.push("fork threat");
-    }
-    if (touchedCorners.length >= 2) {
-      notes.push("bridge threat");
-    }
-    const noteLabel = notes.length ? ` — ${notes.join(" & ")}` : "";
-    analysisSummary.innerHTML = `
-      <strong>Player ${player}</strong> group size: ${visited.size}.<br>
-      Edges reached: ${edgeLabel}.<br>
-      Corners reached: ${cornerLabel}${noteLabel}.
-    `;
-    analysisSummary.style.display = "block";
-  }
-
-  drawBoard();
-  renderGameTable(board);
-}
-
-function applyTutorialScenario(scenario) {
-  if (!scenario) return;
-  resetAnalysis();
-  board = createInitialBoard(scenario.layers);
-  Object.entries(scenario.placements || {}).forEach(([playerKey, coords]) => {
-    const player = Number(playerKey);
-    (coords || []).forEach(([x, y]) => {
-      board[x][y] = player;
-    });
-  });
-  currentPlayer = (scenario.startingPlayer || 1) - 1;
-  hintMove = null;
-  tutorialObjectiveEl.textContent = scenario.objective || "";
-  setHelperMessage(scenario.helperText || scenario.objective || "");
-  updateTimerLabels();
-  updateCurrentTurn();
-  drawBoard();
-  renderGameTable(board);
-}
-
-function resetProgress() {
-  if (!window.confirm("Reset all stored stats and achievements?")) {
-    return;
-  }
-  stats.rounds = 0;
-  stats.p1Wins = 0;
-  stats.p2Wins = 0;
-  stats.ties = 0;
-  stats.fastest = null;
-  Object.keys(achievements).forEach((key) => {
-    achievements[key] = false;
-  });
-  consecutiveWins = 0;
-  savePersistentProgress();
-  renderStats();
-  renderAchievements();
-  setHelperMessage("Progress cleared. Start a new match to begin tracking again.");
-}
-
-function loadPersistentProgress() {
-  const raw = window.localStorage.getItem(STORAGE_KEY);
-  if (!raw) return;
-  try {
-    const data = JSON.parse(raw);
-    if (data.stats) {
-      stats.rounds = data.stats.rounds || 0;
-      stats.p1Wins = data.stats.p1Wins || 0;
-      stats.p2Wins = data.stats.p2Wins || 0;
-      stats.ties = data.stats.ties || 0;
-      stats.fastest = data.stats.fastest || null;
-    }
-    if (data.achievements) {
-      Object.keys(achievements).forEach((key) => {
-        achievements[key] = Boolean(data.achievements[key]);
-      });
-    }
-  } catch (err) {
-    console.warn("Failed to read stored progress:", err);
-  }
-}
-
-function savePersistentProgress() {
-  try {
-    const payload = {
-      stats,
-      achievements,
-    };
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-  } catch (err) {
-    console.warn("Failed to save progress:", err);
-  }
 }
 
 startGame();
