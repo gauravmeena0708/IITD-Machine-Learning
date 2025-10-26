@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Havannah Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Havannah Game</h1>
+    <div id="scoreboard">
+        <div>Player 1: <span id="player1-score">0</span></div>
+        <div>Player 2: <span id="player2-score">0</span></div>
+    </div>
+    <div id="turn-indicator">Current Turn: Player 1</div>
+    <div id="game-board"></div>
+    <button id="reset-button">Reset</button>
+    <select id="ai-select">
+        <option value="ai01">AI 1</option>
+        <option value="ai02">AI 2</option>
+    </select>
+    <script src="../havannah-rules.js"></script>
+    <script src="ai/ai01.js"></script>
+    <script src="ai/ai02.js"></script>
+    <script src="game.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
